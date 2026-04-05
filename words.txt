@@ -1,3 +1,5 @@
-abandon
 concise
 obscure
+abandon
+vivid
+reluctant

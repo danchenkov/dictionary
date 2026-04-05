@@ -1,8 +1,8 @@
-abandon:
-  definitions:
-    - "to leave something behind"
-    - "to stop supporting an idea"
-
 concise:
-  definitions:
-    - "brief but clear"
+  definition: "brief but clear"
+
+obscure:
+  definition: "not well known"
+
+abandon:
+  definition: "to leave behind completely"

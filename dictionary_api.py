@@ -1,15 +1,14 @@
 import requests
 
+
 def get_definition(word):
     url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
 
     try:
-        response = requests.get(url, timeout=5)
+        response = requests.get(url, timeout=10)
         response.raise_for_status()
-
         data = response.json()
 
-        # Take the first available definition
         meanings = data[0].get("meanings", [])
 
         for meaning in meanings:
@@ -17,7 +16,7 @@ def get_definition(word):
             if definitions:
                 return definitions[0].get("definition")
 
-    except Exception as e:
-        print(f"Error fetching definition for {word}: {e}")
+    except Exception as error:
+        print(f"Could not fetch definition for '{word}': {error}")
 
     return None
