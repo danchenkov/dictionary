@@ -1,47 +1,33 @@
+from __future__ import annotations
+from dictionary.types import Entry, Definition, Distractor
+
 import os
-import re
 import requests
 import time
-import yaml
-from pathlib import Path
+
 from openai import OpenAI
 
-from normalize import (
-    normalize_definition,
-    normalize_mw_definition,
-)
+from dictionary.yaml_store import load_yaml, save_yaml
+from dictionary.normalize import normalize_definition, normalize_mw_definition
+from dictionary.validators import is_valid_definition
+
 
 WORDS_FILE = "words_100.txt"
-YAML_FILE = "definitions.yaml"
 
 MW_API_KEY = os.getenv("MERRIAM_WEBSTER_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAPI_DICTIONARY_API_KEY")
 
 MW_URL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"
 
-client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+client: OpenAI | None = (
+    OpenAI(api_key=OPENAI_API_KEY)
+    if OPENAI_API_KEY
+    else None
+)
 
-
-# -----------------------------
-# YAML helpers
-# -----------------------------
-
-def load_yaml():
-    path = Path(YAML_FILE)
-    if not path.exists():
-        return []
-
-    with open(path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
-        return data if data else []
-
-
-def save_yaml(data):
-    with open(YAML_FILE, "w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
-
-
-def index_words(data):
+def index_words(
+    data: list[Entry],
+) -> dict[str, Entry]:
     return {entry["word"].lower(): entry for entry in data if "word" in entry}
 
 
@@ -49,7 +35,7 @@ def index_words(data):
 # Word loader
 # -----------------------------
 
-def load_words():
+def load_words() -> list[str]:
     with open(WORDS_FILE, "r", encoding="utf-8") as f:
         return [w.strip() for w in f if w.strip()]
 
@@ -58,7 +44,9 @@ def load_words():
 # Merriam-Webster
 # -----------------------------
 
-def fetch_mw(word):
+def fetch_mw(
+    word: str,
+) -> list[Definition]:
     if not MW_API_KEY:
         return []
 
@@ -77,17 +65,20 @@ def fetch_mw(word):
         if isinstance(entry, str):
             return []
 
-        results = []
+        results: list[Definition] = []
+        pos = entry.get("fl")
 
         if "shortdef" in entry:
-            for i, d in enumerate(entry["shortdef"]):
+            for i, d in enumerate(entry.get("shortdef", [])):
                 cleaned = normalize_mw_definition(word, d)
-                results.append({
-                    "text": cleaned,
-                    "source": "merriam-webster",
-                    "sense": i + 1,
-                    "primary": i == 0
-                })
+                if is_valid_definition(word, cleaned):
+                    results.append({
+                        "text": cleaned,
+                        "source": "merriam-webster",
+                        "sense": i + 1,
+                        "primary": i == 0,
+                        "pos": pos,
+                    })
 
         return results
 
@@ -100,22 +91,31 @@ def fetch_mw(word):
 # OpenAI fallback
 # -----------------------------
 
-def fetch_openai(word):
+def fetch_openai(
+    word: str,
+) -> list[Definition]:
     if not client:
         return []
 
     try:
         prompt = f"""
-Provide dictionary definitions for the word: "{word}"
+You are a lexicographer.
 
-Rules:
-- one meaning per line
-- max 12 words per definition
-- no synonyms
-- no examples
-- dictionary style only
-- if multiple meanings exist, list them separately
+Return ONLY valid dictionary definitions for the word: "{word}".
+
+STRICT RULES:
+- Do NOT repeat the word itself
+- Do NOT return the word alone
+- Do NOT return numbered lists
+- Do NOT include synonyms as definitions
+- Each line must be a complete definition
+- Maximum 15 words per definition
+- If unsure, rewrite meaningfully or omit
+
+OUTPUT FORMAT:
+One definition per line only.
 """
+
         response = client.chat.completions.create(
             model="gpt-4.1-mini",
             messages=[
@@ -125,9 +125,13 @@ Rules:
             temperature=0.2,
         )
 
-        text = response.choices[0].message.content.strip()
+        content = response.choices[0].message.content
+        if content is None:
+            return []
+        text = content.strip()
 
-        lines = []
+        lines: list[str] = []
+
         for l in text.split("\n"):
             l = l.strip()
 
@@ -137,19 +141,32 @@ Rules:
             # remove bullet markers
             l = l.lstrip("-• ").strip()
 
-            l = normalize_definition(normalize_mw_definition(word, l))
+            # remove numbering (NEW)
+            l = normalize_definition(l)
+
+            # remove invalid artifacts
+            if l.strip() in {"[THING]", "THING", ""}:
+                continue
+
+            if l.strip().lower() == word.lower():
+                continue
+
+            if len(l.split()) < 3:
+                continue
 
             if l:
-                lines.append(l)
+                if is_valid_definition(word, l):
+                    lines.append(l)
 
-        results = []
+        results: list[Definition] = []
 
         for i, line in enumerate(lines):
             results.append({
                 "text": line,
                 "source": "openai",
                 "sense": i + 1,
-                "primary": False
+                "primary": False,
+                "pos": None,
             })
 
         return results
@@ -163,7 +180,10 @@ Rules:
 # Merge logic
 # -----------------------------
 
-def merge_entries(existing_entries, new_entries):
+def merge_entries(
+    existing_entries: list[Definition],
+    new_entries: list[Definition],
+) -> list[Definition]:
     seen = set(e["text"].lower() for e in existing_entries)
 
     for e in new_entries:
@@ -178,7 +198,10 @@ def merge_entries(existing_entries, new_entries):
 # Choose canonical
 # -----------------------------
 
-def choose_canonical(mw_entries, ai_entries):
+def choose_canonical(
+    mw_entries: list[Definition],
+    ai_entries: list[Definition],
+) -> Definition | None:
     """
     Priority:
     1. Merriam-Webster primary
@@ -199,10 +222,10 @@ def choose_canonical(mw_entries, ai_entries):
 # Main
 # -----------------------------
 
-def main():
-    words = load_words()
-    data = load_yaml()
-    word_index = index_words(data)
+def main() -> None:
+    words: list[str] = load_words()
+    data: list[Entry] = load_yaml()
+    word_index: dict[str, Entry] = index_words(data)
 
     print(f"Loaded words: {len(words)}")
     print(f"Existing entries: {len(data)}")
@@ -219,7 +242,7 @@ def main():
 
         if mw_entries:
             print("  -> Merriam-Webster OK")
-            ai_entries = fetch_openai(word)  # optional enrichment
+            ai_entries = fetch_openai(word)
         else:
             print("  -> MW missing, using OpenAI fallback")
             mw_entries = []
@@ -233,20 +256,18 @@ def main():
 
         canonical = choose_canonical(mw_entries, ai_entries)
 
-        if not entries:
-            print("  -> No definitions found")
+        if not canonical:
             continue
 
-        entry = {
+        distractors: list[Distractor] = []
+        entry: Entry = {
             "word": word,
+            "pos": canonical.get("pos"),
             "canonical": canonical,
             "entries": entries,
             "status": "imported",
             "reviewed": False,
-            "distractors": {
-                "generated": [],
-                "approved": []
-            }
+            "distractors": distractors,
         }
 
         data.append(entry)

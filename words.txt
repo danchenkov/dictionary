@@ -1903,7 +1903,6 @@ obsequious
 obsolescent
 obsolete
 obstinate
-obstruse
 obtrude
 obtrusive
 obtuse
@@ -3035,7 +3034,6 @@ unqualified
 unravel
 unrelenting
 unsavory
-unsavoury
 unscrupulous
 untenable
 untoward

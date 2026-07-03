@@ -12,7 +12,7 @@ def clean_definition(text: str) -> str:
     return re.sub(r'^\s*\d+\s*[\.\)\-–]\s*', '', text).strip()
 
 
-def normalize_definition(text):
+def normalize_definition(text: str) -> str:
     text = clean_definition(text)
 
     # unify spacing around semicolons
@@ -24,7 +24,10 @@ def normalize_definition(text):
     return text
 
 
-def normalize_mw_definition(word: str, text: str) -> str:
+def normalize_mw_definition(
+    word: str,
+    text: str,
+) -> str:
     if not text:
         return text
 

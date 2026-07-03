@@ -65,7 +65,6 @@ prerogative
 spout
 cloy
 emaciated
-obstruse
 break
 gabardine
 godsend
@@ -108,7 +107,7 @@ straggle
 razzmatazz
 incline
 indigent
-unsavoury
+unsavory
 cavil
 nub
 tranquil

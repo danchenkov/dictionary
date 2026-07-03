@@ -4,3 +4,4 @@ pathlib
 python-dotenv
 PyYAML
 requests
+yaml_store
