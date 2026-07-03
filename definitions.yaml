@@ -1,0 +1,1272 @@
+- word: accede
+  canonical: &id001
+    text: 'to express approval or give consent : to agree to a request or demand —usually
+      + to'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id001
+  - text: to become a party to something (such as an agreement) —usually + to
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to enter upon an office or position —usually + to
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: To agree to a request or demand.
+    source: openai
+    sense: 1
+    primary: false
+  - text: To assume an office or position, especially a throne.
+    source: openai
+    sense: 2
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: summary
+  canonical: &id002
+    text: 'comprehensive; especially : covering the main points succinctly'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id002
+  - text: 'done without delay or formality : quickly executed'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: of, relating to, or using a summary proceeding
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: A brief statement presenting the main points of something.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Performed or made without delay or formality.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A legal proceeding conducted without a jury or formal trial.
+    source: openai
+    sense: 3
+    primary: false
+  - text: A concise written or spoken account of facts or events.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: gruff
+  canonical: &id003
+    text: rough, brusque, or stern in manner, speech, or aspect
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id003
+  - text: 'being deep and harsh : hoarse'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: Rough or stern in manner or speech.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Low and harsh in sound.
+    source: openai
+    sense: 2
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: tingle
+  canonical: &id004
+    text: to feel a ringing, stinging, prickling, or thrilling sensation
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id004
+  - text: to cause such a sensation
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: tinkle
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: tingle
+    source: openai
+    sense: 1
+    primary: false
+  - text: To experience a slight prickling or stinging sensation.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To feel a thrill or excitement, often physical.
+    source: openai
+    sense: 3
+    primary: false
+  - text: To cause a slight prickling or stinging sensation.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: experience
+  canonical: &id005
+    text: direct observation of or participation in events as a basis of knowledge
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id005
+  - text: the fact or state of having been affected by or gained knowledge through
+      direct observation or participation
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: practical knowledge, skill, or practice gained from direct observation of
+      or participation in events or in a particular activity
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: The process of personally encountering or undergoing events or activities.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Knowledge or skill acquired through direct participation or observation.
+    source: openai
+    sense: 2
+    primary: false
+  - text: An event or occurrence that leaves an impression on someone.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Practical contact with and observation of facts or events.
+    source: openai
+    sense: 4
+    primary: false
+  - text: The totality of lived events and sensations of an individual.
+    source: openai
+    sense: 5
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: caress
+  canonical: &id006
+    text: 'to treat with tokens of fondness, affection, or kindness : cherish'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id006
+  - text: to touch or stroke lightly in a loving or endearing manner
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to touch or affect as if with a caress
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: caress
+    source: openai
+    sense: 1
+    primary: false
+  - text: To touch or stroke gently in a loving or affectionate manner.
+    source: openai
+    sense: 2
+    primary: false
+  - text: An act of touching or stroking gently and affectionately.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: taint
+  canonical: &id007
+    text: 'to contaminate morally : corrupt'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id007
+  - text: 'to affect with putrefaction : spoil'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to touch or affect slightly with something bad
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: A trace of a bad or undesirable quality or substance.
+    source: openai
+    sense: 1
+    primary: false
+  - text: To contaminate or pollute something morally or physically.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To affect with a trace of something harmful or offensive.
+    source: openai
+    sense: 3
+    primary: false
+  - text: To stain or discolor, especially with something unpleasant.
+    source: openai
+    sense: 4
+    primary: false
+  - text: A trace of infection or decay in a substance or body.
+    source: openai
+    sense: 5
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: applecart
+  canonical: &id008
+    text: a plan, system, situation, or undertaking that may be disrupted or terminated
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id008
+  - text: applecart
+    source: openai
+    sense: 1
+    primary: false
+  - text: A cart used for carrying or selling apples.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A situation or plan that can be disrupted or overturned.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: insinuate
+  canonical: &id009
+    text: 'to impart or suggest in an artful or indirect way : imply'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id009
+  - text: to introduce (something, such as an idea) gradually or in a subtle, indirect,
+      or covert way
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to introduce (someone, such as oneself) by stealthy, smooth, or artful means
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: To suggest or hint something indirectly or covertly.
+    source: openai
+    sense: 1
+    primary: false
+  - text: To introduce or insert gradually or subtly.
+    source: openai
+    sense: 2
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: clog
+  canonical: &id010
+    text: a weight attached especially to an animal to hinder motion
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id010
+  - text: 'something that restrains or impedes : encumbrance'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: a mass of material that blocks movement through a pipe or vessel
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: clog
+    source: openai
+    sense: 1
+    primary: false
+  - text: To block or become blocked with an accumulation of material.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A wooden-soled shoe, often with a leather upper.
+    source: openai
+    sense: 3
+    primary: false
+  - text: To hinder or obstruct movement or progress.
+    source: openai
+    sense: 4
+    primary: false
+  - text: A type of dance characterized by striking the heel against the floor.
+    source: openai
+    sense: 5
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: fanlight
+  canonical: &id011
+    text: a semicircular window with radiating bars like the ribs of a fan that is
+      placed over a door or window
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id011
+  - text: fanlight
+    source: openai
+    sense: 1
+    primary: false
+  - text: A semicircular or semi-elliptical window above a door.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A window with glazing bars radiating like a fan.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: pigpen
+  canonical: &id012
+    text: a pen for pigs
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id012
+  - text: a dirty slovenly place
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: pigpen
+    source: openai
+    sense: 1
+    primary: false
+  - text: An enclosure or pen for keeping pigs.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A messy or dirty place or condition.
+    source: openai
+    sense: 3
+    primary: false
+  - text: A cipher using a grid or symbols for letters.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: atone
+  canonical: &id013
+    text: 'at harmony : in a state of agreement'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id013
+  - text: atone
+    source: openai
+    sense: 1
+    primary: false
+  - text: To make amends for a wrong or injury.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To reconcile or compensate for an offense or fault.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: stiff
+  canonical: &id014
+    text: 'not easily bent : rigid'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id014
+  - text: lacking in suppleness or flexibility
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: impeded in movement —used of a mechanism
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: Rigid or firm; not easily bent or moved.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Difficult to bend or flex; inflexible.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Lacking ease or grace in movement or manner.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Severe or harsh in treatment or conditions.
+    source: openai
+    sense: 4
+    primary: false
+  - text: Strong or potent, especially of a drink.
+    source: openai
+    sense: 5
+    primary: false
+  - text: Unwilling to change opinion or behavior; stubborn.
+    source: openai
+    sense: 6
+    primary: false
+  - text: Rigid or sore, especially after exertion or injury.
+    source: openai
+    sense: 7
+    primary: false
+  - text: Formal or unnatural in style or expression.
+    source: openai
+    sense: 8
+    primary: false
+  - text: A dead body, especially one that is rigid.
+    source: openai
+    sense: 9
+    primary: false
+  - text: An amount of money owed and unpaid; a debt.
+    source: openai
+    sense: 10
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: sconce
+  canonical: &id015
+    text: 'a bracket candlestick or group of candlesticks; also : an electric light
+      fixture patterned on a candle sconce'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id015
+  - text: head, skull
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: A bracket for holding a candle or light on a wall.
+    source: openai
+    sense: 1
+    primary: false
+  - text: A small defensive fortification built on a battlefield or fort.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A protective covering or shield, especially for a flame or light.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: crawling
+  canonical: &id016
+    text: to move on one's hands and knees
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id016
+  - text: to move slowly in a prone position without or as if without the use of limbs
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to move or progress slowly or laboriously
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: Moving forward on hands and knees or dragging the body.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Progressing slowly or with difficulty.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Covered or swarming with small moving creatures.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Displaying excessive humility or subservience.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: beguile
+  canonical: &id017
+    text: hoodwink
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id017
+  - text: to engage the interest of by or as if by guile
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to lead by deception
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: beguile
+    source: openai
+    sense: 1
+    primary: false
+  - text: To charm or enchant someone, often deceptively.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To pass time pleasantly or enjoyably.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: collateral
+  canonical: &id018
+    text: property (such as securities) pledged by a borrower to protect the interests
+      of the lender
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id018
+  - text: a collateral relative
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: a branch of a bodily part (such as a vein)
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: Property pledged as security for repayment of a loan.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Secondary or additional, serving to support or reinforce.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Descending from a common ancestor but through a different line.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Occurring as a side effect or unintended consequence.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: obfuscate
+  canonical: &id019
+    text: 'to throw into shadow : darken'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id019
+  - text: 'to make obscure : hide'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to make more difficult to understand
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: obfuscate
+    source: openai
+    sense: 1
+    primary: false
+  - text: To render obscure, unclear, or unintelligible.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To deliberately make something confusing or difficult to understand.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: fuzzy
+  canonical: &id020
+    text: marked by or giving a suggestion of fuzz
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id020
+  - text: lacking in clarity or definition
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: being, relating to, or invoking pleasant and usually sentimental emotions
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: Covered with fine, soft hairs or fibers.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Lacking clarity or distinctness; blurred.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Indistinct in outline or sound.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Having a warm, comfortable texture or appearance.
+    source: openai
+    sense: 4
+    primary: false
+  - text: Characterized by vague or confused thinking.
+    source: openai
+    sense: 5
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: take out
+  canonical: &id021
+    text: prepared food packaged to be consumed away from its place of sale
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id021
+  - text: an establishment selling takeout
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: the action or an act of taking out
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: Remove something from a place or container.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Obtain or secure by purchase or arrangement.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Arrange a date or social engagement with someone.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Extract or withdraw money from a bank account.
+    source: openai
+    sense: 4
+    primary: false
+  - text: Destroy or eliminate by force or attack.
+    source: openai
+    sense: 5
+    primary: false
+  - text: Remove a part or section from a text or document.
+    source: openai
+    sense: 6
+    primary: false
+  - text: Obtain a loan or insurance policy.
+    source: openai
+    sense: 7
+    primary: false
+  - text: Take food or drink away from a restaurant for consumption elsewhere.
+    source: openai
+    sense: 8
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: exalt
+  canonical: &id023
+    text: to raise in rank, power, or character
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id023
+  - text: 'to elevate by praise or in estimation : glorify'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: elate
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: exalt
+    source: openai
+    sense: 1
+    primary: false
+  - text: To raise in rank, power, or character.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To praise highly or glorify.
+    source: openai
+    sense: 3
+    primary: false
+  - text: To elevate in spirit or feeling.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: chuck
+  canonical: &id024
+    text: cluck
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id024
+  - text: chuck
+    source: openai
+    sense: 1
+    primary: false
+  - text: To throw or toss something casually or abruptly.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To discard or abandon something or someone.
+    source: openai
+    sense: 3
+    primary: false
+  - text: To give up or quit an activity or job.
+    source: openai
+    sense: 4
+    primary: false
+  - text: A cut of beef from the shoulder area.
+    source: openai
+    sense: 5
+    primary: false
+  - text: A device for holding an object firmly in a machine.
+    source: openai
+    sense: 6
+    primary: false
+  - text: To pat or tap lightly, especially on the chin.
+    source: openai
+    sense: 7
+    primary: false
+  - text: To produce a low, guttural sound, as a bird.
+    source: openai
+    sense: 8
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: jetsam
+  canonical: &id025
+    text: the part of a ship, its equipment, or its cargo that is cast overboard to
+      lighten the load in time of distress and that sinks or is washed ashore
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id025
+  - text: flotsam
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: jetsam
+    source: openai
+    sense: 1
+    primary: false
+  - text: Goods thrown overboard from a ship to lighten it.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Material cast off or discarded, washed ashore by the sea.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: induce
+  canonical: &id026
+    text: to move by persuasion or influence
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id026
+  - text: to call forth or bring about by influence or stimulation
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: effect, cause
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: To cause or bring about a particular effect or condition.
+    source: openai
+    sense: 1
+    primary: false
+  - text: To persuade or influence someone to do something.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To stimulate or initiate a physiological process.
+    source: openai
+    sense: 3
+    primary: false
+  - text: To derive a general principle from specific cases.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: antipathy
+  canonical: &id027
+    text: a strong feeling of dislike
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id027
+  - text: 'something disliked : an object of aversion'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: opposition in feeling
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: A deep-seated feeling of aversion or dislike.
+    source: openai
+    sense: 1
+    primary: false
+  - text: A natural, basic, or habitual repugnance.
+    source: openai
+    sense: 2
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: buck
+  canonical: &id028
+    text: dollar
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id028
+  - text: 'a sum of money especially to be gained; also : money —usually used in plural'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: —used in place of "hundred" in combination with other numbers
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: buck
+    source: openai
+    sense: 1
+    primary: false
+  - text: Male deer, antelope, or rabbit.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Male goat.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Male antlered animal, especially of the family Cervidae.
+    source: openai
+    sense: 4
+    primary: false
+  - text: One dollar in United States currency.
+    source: openai
+    sense: 5
+    primary: false
+  - text: To resist or oppose something.
+    source: openai
+    sense: 6
+    primary: false
+  - text: To leap or jump with a sudden movement.
+    source: openai
+    sense: 7
+    primary: false
+  - text: To throw off a rider, as a horse.
+    source: openai
+    sense: 8
+    primary: false
+  - text: A strong or vigorous young man.
+    source: openai
+    sense: 9
+    primary: false
+  - text: To shift responsibility or blame onto another.
+    source: openai
+    sense: 10
+    primary: false
+  - text: A unit of measurement for certain fabrics.
+    source: openai
+    sense: 11
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: riptide
+  canonical: &id029
+    text: rip current
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id029
+  - text: riptide
+    source: openai
+    sense: 1
+    primary: false
+  - text: A strong, narrow current flowing outward from the shore.
+    source: openai
+    sense: 2
+    primary: false
+  - text: A powerful tidal flow causing rapid water movement near beaches.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: adroit
+  canonical: &id030
+    text: having or showing skill, cleverness, or resourcefulness in handling situations
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id030
+  - text: adroit
+    source: openai
+    sense: 1
+    primary: false
+  - text: Skillful and clever in using the hands or mind.
+    source: openai
+    sense: 2
+    primary: false
+  - text: Demonstrating resourcefulness and ingenuity in handling situations.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: complexity
+  canonical: &id031
+    text: something complex
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id031
+  - text: the quality or state of being complex
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: The state of having many parts or elements interconnected.
+    source: openai
+    sense: 1
+    primary: false
+  - text: The quality of being intricate or complicated in structure.
+    source: openai
+    sense: 2
+    primary: false
+  - text: The degree of difficulty in understanding or analyzing something.
+    source: openai
+    sense: 3
+    primary: false
+  - text: A factor or aspect that complicates a situation or problem.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: fresh
+  canonical: &id032
+    text: 'having its original qualities unimpaired: such as'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id032
+  - text: 'full of or renewed in vigor : refreshed'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: not stale, sour, or decayed
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: Recently made, obtained, or harvested; not stale or spoiled.
+    source: openai
+    sense: 1
+    primary: false
+  - text: Cool and invigorating, especially of air or water.
+    source: openai
+    sense: 2
+    primary: false
+  - text: New or different from what has been known before.
+    source: openai
+    sense: 3
+    primary: false
+  - text: Lacking experience or maturity; youthful.
+    source: openai
+    sense: 4
+    primary: false
+  - text: Bold or disrespectful in speech or behavior.
+    source: openai
+    sense: 5
+    primary: false
+  - text: Recently washed or cleaned; not dirty.
+    source: openai
+    sense: 6
+    primary: false
+  - text: Bright or vivid in appearance or color.
+    source: openai
+    sense: 7
+    primary: false
+  - text: Unrefrigerated or not preserved by freezing.
+    source: openai
+    sense: 8
+    primary: false
+  - text: Energetic or lively in manner or action.
+    source: openai
+    sense: 9
+    primary: false
+  - text: Recently arrived or introduced; novel.
+    source: openai
+    sense: 10
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: impute
+  canonical: &id033
+    text: to lay the responsibility or blame for (something) often falsely or unjustly
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id033
+  - text: 'to credit or ascribe (something) to a person, cause, etc. : attribute'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: To attribute or ascribe an action or quality to someone.
+    source: openai
+    sense: 1
+    primary: false
+  - text: To charge or attribute something, especially a fault or crime.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To assign a value to an unknown quantity in statistics or mathematics.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: condescend
+  canonical: &id034
+    text: to assume an air of superiority
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id034
+  - text: 'to descend to a less formal or dignified level : unbend'
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to waive the privileges of rank
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: condescend
+    source: openai
+    sense: 1
+    primary: false
+  - text: To show feelings of superiority; to act patronizingly.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To descend voluntarily to a lower level or rank.
+    source: openai
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: debauch
+  canonical: &id035
+    text: to debase by extreme indulgence in bodily pleasures
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id035
+  - text: to lead away from virtue or duty
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: seduce
+    source: merriam-webster
+    sense: 3
+    primary: false
+  - text: debauch
+    source: openai
+    sense: 1
+    primary: false
+  - text: To lead away from virtue or excellence; corrupt.
+    source: openai
+    sense: 2
+    primary: false
+  - text: To indulge in or lead others into excessive sensual pleasures.
+    source: openai
+    sense: 3
+    primary: false
+  - text: An act or occasion of excessive indulgence in sensual pleasures.
+    source: openai
+    sense: 4
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: hold
+  canonical: &id036
+    text: to have possession or ownership of or have at one's disposal
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id036
+  - text: to have as a privilege or position of responsibility
+    source: merriam-webster
+    sense: 2
+    primary: false
+  - text: to have as a mark of distinction
+    source: merriam-webster
+    sense: 3
+    primary: false
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []
+- word: extol
+  canonical: &id037
+    text: 'to praise highly : glorify'
+    source: merriam-webster
+    sense: 1
+    primary: true
+  entries:
+  - *id037
+  status: imported
+  reviewed: false
+  distractors:
+    generated: []
+    approved: []

@@ -1,12 +1,13 @@
 import os
-import time
+import re
 import requests
+import time
 import yaml
 from pathlib import Path
 from openai import OpenAI
 
 
-WORDS_FILE = "words.txt"
+WORDS_FILE = "words_100.txt"
 YAML_FILE = "definitions.yaml"
 
 MW_API_KEY = os.getenv("MERRIAM_WEBSTER_API_KEY")
@@ -38,6 +39,30 @@ def save_yaml(data):
 
 def index_words(data):
     return {entry["word"].lower(): entry for entry in data if "word" in entry}
+
+
+def clean_definition(text: str) -> str:
+    """
+    Removes leading numbering like:
+    '1. ', '2) ', '3 - ', etc.
+    """
+
+    if not text:
+        return text
+
+    return re.sub(r'^\s*\d+\s*[\.\)\-–]\s*', '', text).strip()
+
+
+def normalize_definition(text):
+    text = clean_definition(text)
+
+    # unify spacing around semicolons
+    text = re.sub(r'\s*;\s*', '; ', text)
+
+    # remove trailing periods (optional style decision)
+    text = text.strip()
+
+    return text
 
 
 # -----------------------------
@@ -110,7 +135,6 @@ Rules:
 - dictionary style only
 - if multiple meanings exist, list them separately
 """
-
         response = client.chat.completions.create(
             model="gpt-4.1-mini",
             messages=[
@@ -122,7 +146,21 @@ Rules:
 
         text = response.choices[0].message.content.strip()
 
-        lines = [l.strip("-• ").strip() for l in text.split("\n") if l.strip()]
+        lines = []
+        for l in text.split("\n"):
+            l = l.strip()
+
+            if not l:
+                continue
+
+            # remove bullet markers
+            l = l.lstrip("-• ").strip()
+
+            # remove numbering (NEW)
+            l = clean_definition(l)
+
+            if l:
+                lines.append(l)
 
         results = []
 
@@ -157,6 +195,27 @@ def merge_entries(existing_entries, new_entries):
 
 
 # -----------------------------
+# Choose canonical
+# -----------------------------
+
+def choose_canonical(mw_entries, ai_entries):
+    """
+    Priority:
+    1. Merriam-Webster primary
+    2. first MW entry
+    3. first AI entry
+    """
+
+    if mw_entries:
+        return mw_entries[0]
+
+    if ai_entries:
+        return ai_entries[0]
+
+    return None
+
+
+# -----------------------------
 # Main
 # -----------------------------
 
@@ -179,11 +238,20 @@ def main():
         mw_entries = fetch_mw(word)
 
         if mw_entries:
-            entries = mw_entries
             print("  -> Merriam-Webster OK")
+            ai_entries = fetch_openai(word)  # optional enrichment
         else:
             print("  -> MW missing, using OpenAI fallback")
-            entries = fetch_openai(word)
+            mw_entries = []
+            ai_entries = fetch_openai(word)
+
+        entries = mw_entries + ai_entries
+
+        if not entries:
+            print("  -> No definitions found")
+            continue
+
+        canonical = choose_canonical(mw_entries, ai_entries)
 
         if not entries:
             print("  -> No definitions found")
@@ -191,6 +259,7 @@ def main():
 
         entry = {
             "word": word,
+            "canonical": canonical,
             "entries": entries,
             "status": "imported",
             "reviewed": False,
