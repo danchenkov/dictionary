@@ -19,6 +19,7 @@ abrasion
 abreaction
 abrogate
 absolution
+abstain
 abstemious
 abstruse
 abysmal
@@ -49,16 +50,19 @@ admittedly
 admonish
 adorn
 adroit
+adulterate
 advance
 adventurous
 adverse
 advised
+advocate
 ae
 afflict
 affliction
 affluence
 aft
 agate
+aggrandize
 aggravate
 aggregate
 agitate
@@ -82,6 +86,7 @@ ally
 alms
 aloof
 altercate
+amalgamate
 ambient
 amble
 amenable
@@ -91,11 +96,15 @@ amiss
 ample
 amplifier
 amputee
+anachronism
+anomaly
 ante
 antebellum
 anterior
 antimony
+antipathy
 antique
+apathy
 ape
 aphorism
 appease
@@ -168,6 +177,7 @@ balloon
 balls-up
 ballup
 baloney
+banal
 banderol
 banderole
 bandy
@@ -268,6 +278,7 @@ boloney
 bolster
 bombard
 bombast
+bombastic
 bond paper
 boob
 booby hatch
@@ -399,6 +410,7 @@ cheat
 check
 cheek
 cheeky
+chicanery
 chicle
 chide
 chip
@@ -491,6 +503,7 @@ concourse
 condemn
 condescend
 condescending
+condone
 conducive
 confer
 confide
@@ -649,7 +662,6 @@ death on
 debase
 debauch
 debauched
-debosh
 decadence
 decadency
 decadent
@@ -692,10 +704,12 @@ depreciate
 depreciation
 derelict
 dereliction
+deride
 derision
 derrick
 deshabille
 desiccant
+desiccate
 desolate
 despatch
 despicable
@@ -716,6 +730,7 @@ diffuse
 dignity
 dilapidated
 dilate
+dilettante
 diligent
 dilly
 dilly-dally
@@ -723,6 +738,8 @@ dinghy
 dingo
 dingy
 dint
+dirge
+disabuse
 disavow
 discern
 discernable
@@ -743,9 +760,11 @@ dismal
 dismantle
 dismay
 disparage
+disparate
 dispatch
 disperse
 dissipate
+dissonance
 distress
 disuse
 divergent
@@ -755,6 +774,7 @@ do
 doat
 doctrinaire
 dog
+dogmatic
 dole
 doleful
 doloriferous
@@ -830,10 +850,12 @@ encumbrance
 endeavor
 endeavour
 endow
+enervate
 enfilade
 engage
 engender
 engross
+enigma
 enjoin
 enjoinder
 enormity
@@ -856,13 +878,17 @@ Erato
 erewhile
 erewhiles
 erstwhile
+erudite
 escapade
+esoteric
 espousal
 espouse
 espy
 establish
 estate
 ester
+estimable
+eulogy
 Euterpe
 evaluative
 evanescent
@@ -1022,6 +1048,7 @@ fold
 fold up
 fold-up
 follow out
+foment
 foolish
 foolscap
 footage
@@ -1327,6 +1354,7 @@ hokum
 hold
 hold one’s own
 homage
+homogenous
 hook
 hook-up
 hoot
@@ -1356,6 +1384,7 @@ hurdle
 hurl
 hush
 hustle
+iconoclast
 ideal
 ignoble
 ignominy
@@ -1395,6 +1424,7 @@ inadvertent
 inane
 inarticulate
 inasmuch as
+inchoate
 incidence
 incidental
 incinerator
@@ -1420,6 +1450,7 @@ infallible
 infatuate
 infract
 ingenious
+ingenuous
 ingrate
 inimical
 iniquity
@@ -1441,6 +1472,7 @@ intermission
 internecine
 internecive
 intimidate
+intransigent
 intrench
 intrepid
 intricate
@@ -1498,6 +1530,7 @@ kook
 lace
 lacerate
 lackadaisical
+laconic
 lag
 lalapalooza
 lam
@@ -1516,6 +1549,7 @@ lash
 lath
 lathe
 lather
+laudable
 lavish
 lax
 lay
@@ -1527,10 +1561,10 @@ leniency
 leprous
 lest
 let up
+lethargic
 letterpress
 levity
 lewd
-Li T’ai-po
 libel
 licentious
 lichen
@@ -1572,9 +1606,11 @@ lopsided
 loquacious
 lore
 loth
+lucid
 ludicrous
 lugubrious
 lumbar
+luminous
 lumpen
 lunge
 lurch
@@ -1599,6 +1635,8 @@ malfeasance
 malicious
 malign
 malignant
+malinger
+malleable
 malt
 manage
 mandate
@@ -1653,6 +1691,7 @@ ministration
 mint
 mire
 mirth
+misanthrope
 miscarriage
 mischief
 miser
@@ -1745,6 +1784,7 @@ obtrusive
 obtuse
 obverse
 obviate
+occlude
 odd one out
 off
 offhand
@@ -1758,8 +1798,10 @@ onseet
 onset
 ontology
 onus
+opaque
 operative
 opprobrious
+opprobrium
 opulent
 oracular
 ordeal
@@ -1803,6 +1845,8 @@ pang
 panhandle
 Pantagruel
 pap
+paradox
+paragon
 parapet
 parch
 parlance
@@ -1821,6 +1865,7 @@ patronize
 pauper
 pay
 peculiar
+pedant
 peel
 peep
 peer
@@ -1866,6 +1911,7 @@ pestilence
 petulant
 pewter
 pharynx
+philanthropic
 phlebotomy
 piecemeal
 pigpen
@@ -1982,6 +2028,7 @@ progressive
 proliferate
 prolix
 promulgation
+propitiate
 propitious
 propriety
 prostrate
@@ -2033,6 +2080,7 @@ querulous
 queue
 quibble
 quick
+quiescent
 quirk
 quiver
 rabbet
@@ -2455,6 +2503,7 @@ somnolent
 soot
 soothe
 soothsayer
+soporific
 sordid
 sorely
 sound out
@@ -2543,6 +2592,7 @@ sterling
 stern
 stick
 stiff
+stigma
 stilt
 stilted
 sting
@@ -2551,6 +2601,7 @@ stint
 stipulate
 stockade
 stodge
+stolid
 stomp
 stooge
 stoop
@@ -2650,6 +2701,7 @@ swoop
 sycophant
 sycophantic
 tacit
+taciturn
 tack
 taint
 tainted
@@ -2734,6 +2786,7 @@ tone
 tops
 torment
 torpid
+torpor
 toss
 tote bag
 totter
@@ -2848,6 +2901,7 @@ venal
 venerate
 vent
 venture
+veracity
 verge
 veriest
 vermin
@@ -2880,6 +2934,7 @@ vivacious
 viverrine
 vivid
 vociferous
+volatile
 volition
 volte-face
 volte-vis
@@ -2941,7 +2996,6 @@ wicked
 wield
 wieldy
 wile
-wilful
 willful
 wilt
 wily
@@ -2985,4 +3039,3 @@ yore
 yowl
 zap
 zeal
-zealous
