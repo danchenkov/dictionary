@@ -2,6 +2,7 @@ abandon
 abase
 abate
 abdicate
+aberrant
 abet
 abeyance
 abeyancy
@@ -18,6 +19,7 @@ abrade
 abrasion
 abreaction
 abrogate
+abscond
 absolution
 abstain
 abstemious
@@ -34,6 +36,7 @@ accurst
 acerb
 acerbic
 acquiesce
+acquiesceor
 acrimonious
 acumen
 ad libitum
@@ -57,6 +60,7 @@ adverse
 advised
 advocate
 ae
+aesthetic
 afflict
 affliction
 affluence
@@ -79,6 +83,7 @@ alfalfa
 all
 all but
 allay
+alleviate
 allow
 allure
 alluring
@@ -88,7 +93,10 @@ aloof
 altercate
 amalgamate
 ambient
+ambiguous
+ambivalence
 amble
+ameliorate
 amenable
 amiable
 amicable
@@ -97,6 +105,9 @@ ample
 amplifier
 amputee
 anachronism
+analogous
+anarchy
+anomalous
 anomaly
 ante
 antebellum
@@ -110,6 +121,9 @@ aphorism
 appease
 appertain
 applecart
+apprise
+approbation
+appropriate
 apropos
 apt
 arcane
@@ -123,8 +137,10 @@ arrears
 arrogate
 artifice
 artisan
+artless
 as to
 ascertain
+ascetic
 ascribe
 asinine
 askance
@@ -148,6 +164,7 @@ atom
 atone
 atonement
 attend
+attenuate
 audacious
 audacity
 augur
@@ -157,7 +174,9 @@ auspice
 auspicious
 austere
 automaton
+autonomous
 avarice
+aver
 averse
 avert
 avocation
@@ -184,6 +203,7 @@ bandy
 bane
 banter
 barb
+barbelse.
 barge
 barge into
 barley
@@ -216,6 +236,7 @@ begin
 beguile
 beguiling
 behest
+belie
 belligerent
 belly
 beneficence
@@ -335,6 +356,8 @@ bungle
 bunk
 bunkum
 bur
+burgeon
+burnish
 bushveld
 bust
 bustle
@@ -377,11 +400,14 @@ carrom
 carry
 cast up
 castigate
+castigation
 cat-tail
+catalyst
 catechumen
 cattail
 cattle
 catty
+caustic
 cauterise
 cauterize
 cavalier
@@ -459,8 +485,10 @@ cloy
 clucks
 clump
 co-ordinate
+coagulate
 coax
 cobbler
+coda
 coddle
 cogent
 cohere
@@ -476,16 +504,20 @@ colony
 come unstuck
 comestible
 commanding
+commensurate
 commit
 committal
 commodity
+compendium
 complacent
 complainant
 complaint
+complaisant
 complement
 complex
 complexion
 complexity
+compliant
 compound
 compunction
 concede
@@ -495,6 +527,7 @@ conceive of
 concert
 concession
 conciliate
+conciliatory
 concise
 concoct
 concomitant
@@ -535,19 +568,23 @@ construe
 consummate
 consumption
 contagion
+contention
 contentious
 contingency
 contingent
 contort
 contorted
 contradistinction
+contrite
 contrition
 contrivance
 contrive
 contrived
 conundrum
 convalesce
+converge
 conversant
+convoluted
 coordinate
 copious
 cord
@@ -651,6 +688,7 @@ dart
 dastardly
 data
 daub
+daunt
 dawdle
 dead
 dead on
@@ -670,6 +708,7 @@ deceitful
 decent
 declaim
 decorous
+decorum
 decrepit
 decry
 deed
@@ -706,6 +745,7 @@ derelict
 dereliction
 deride
 derision
+derivative
 derrick
 deshabille
 desiccant
@@ -719,15 +759,20 @@ despoil
 destitute
 desultory
 detail
+deterrent
 detract
 device
 devious
 devolve on
+diatribe
+dichotomy
 didactic
 didactical
+diffidence
 diffident
 diffuse
 dignity
+digression
 dilapidated
 dilate
 dilettante
@@ -744,10 +789,14 @@ disavow
 discern
 discernable
 discernible
+discerning
 discharge
 disclaim
 discomfit
+discordant
+discredit
 discrepancy
+discrete
 disdain
 disdainful
 disease
@@ -756,23 +805,34 @@ disfranchise
 dishabille
 dished
 dishevel
+disingenuous
+disinterested
+disjointed
 dismal
 dismantle
 dismay
+dismiss
 disparage
 disparate
 dispatch
 disperse
+dissemble
+disseminate
 dissipate
+dissolution
 dissonance
+distend
+distill
 distress
 disuse
+diverge
 divergent
 divest
 divulge
 do
 doat
 doctrinaire
+document
 dog
 dogmatic
 dole
@@ -783,10 +843,12 @@ dolorous
 domestic
 domineer
 dope
+dormant
 dote
 doughy
 dour
 dowel
+dowelposition.
 drab
 draff
 draft
@@ -813,10 +875,13 @@ dun
 dunce
 dung
 dunk
+dupe
 dye
 earmark
 earnest
 easel
+ebullient
+eclectic
 eddy
 edge
 edified
@@ -835,26 +900,32 @@ elder
 elderberry
 eleemosynary
 elegy
+elicit
 elide
 elision
 eloquent
 elsewhither
 emaciated
 embattle
+embellish
 embroider
 eminent
 empale
+empirical
 employ
+emulate
 encourage
 encumbrance
 endeavor
 endeavour
+endemic
 endow
 enervate
 enfilade
 engage
 engender
 engross
+enhance
 enigma
 enjoin
 enjoinder
@@ -871,6 +942,7 @@ entrench
 ephemeral
 epicurean
 epistemology
+equanimity
 equi-
 equivocal
 equivocate
@@ -889,6 +961,7 @@ estate
 ester
 estimable
 eulogy
+euphemism
 Euterpe
 evaluative
 evanescent
@@ -899,6 +972,7 @@ exact
 exacting
 exalt
 exalted
+examined
 exasperate
 excite
 excoriate
@@ -936,6 +1010,7 @@ extoll
 extort
 extortion
 extortionate
+extrapolation
 extravagance
 extravagancy
 exuberant
@@ -943,6 +1018,7 @@ exude
 exult
 facetious
 facile
+facilitate
 fact
 faction
 faculty
@@ -962,12 +1038,14 @@ fastidious
 fatigue
 fatuous
 fawn
+fawning
 faze
 feasible
 fee
 feeble
 feign
 feisty
+felicitous
 felony
 fen
 fence
@@ -1002,6 +1080,7 @@ fitful
 fix
 flabby
 flaccid
+flag
 flagellate
 flagrant
 flamboyant
@@ -1014,6 +1093,7 @@ flatter
 flatulent
 flaunt
 flay
+fledgling
 fleece
 flench
 flense
@@ -1101,6 +1181,7 @@ frolic
 from
 froth
 frugal
+frugality
 fuckhead
 fuddle
 fuddled
@@ -1186,6 +1267,7 @@ gnash
 gnaw
 go
 go whole hog
+goad
 gob
 gobbet
 gobble
@@ -1238,6 +1320,7 @@ grumble
 grunge
 grunt
 guile
+guileless
 gulf
 gullet
 gullible
@@ -1354,6 +1437,7 @@ hokum
 hold
 hold one’s own
 homage
+homogeneous
 homogenous
 hook
 hook-up
@@ -1384,25 +1468,37 @@ hurdle
 hurl
 hush
 hustle
+hyperbole
 iconoclast
+iconoclastic
 ideal
+idolatry
 ignoble
 ignominy
 imbibe
 imminent
+immutable
+impair
 impala
 impale
+impassive
+impede
 impelled
 impendent
 impending
 imperative
 imperil
+impermeable
 impertinent
+imperturbable
+impervious
 impetuous
 impetus
 impish
 implacable
 implicate
+implicit
+implode
 imponderable
 import
 importunate
@@ -1421,6 +1517,7 @@ in so far as
 in spite of
 in-
 inadvertent
+inadvertently
 inane
 inarticulate
 inasmuch as
@@ -1432,9 +1529,14 @@ incipient
 incite
 incline
 incomer
+incongruity
+inconsequential
+incorporate
 inculcate
 incumbrance
+indeterminate
 indicate
+indigence
 indigent
 indignance
 indignation
@@ -1445,6 +1547,7 @@ indulge
 ineffectual
 inept
 inequity
+inert
 inexorable
 infallible
 infatuate
@@ -1452,6 +1555,7 @@ infract
 ingenious
 ingenuous
 ingrate
+inherent
 inimical
 iniquity
 inmost
@@ -1460,18 +1564,23 @@ innuendo
 inoculate
 inordinate
 inquiry
+insensible
 insidious
 insight
+insinuate
 insipid
 insofar as
 insolent
 insouciant
 insular
+insularity
 intercede
 intermission
 internecine
 internecive
 intimidate
+intractable
+intransigence
 intransigent
 intrench
 intrepid
@@ -1479,6 +1588,7 @@ intricate
 intrinsic
 intrinsical
 inundate
+inured
 invective
 inveigh
 inveigle
@@ -1489,6 +1599,8 @@ irascible
 iridescent
 irksome
 ironbound
+irresolute
+itinerary
 jabber
 jabbering
 jack
@@ -1546,9 +1658,12 @@ languor
 larceny
 lark
 lash
+lassitude
+latent
 lath
 lathe
 lather
+laud
 laudable
 lavish
 lax
@@ -1563,6 +1678,7 @@ lest
 let up
 lethargic
 letterpress
+levee
 levity
 lewd
 libel
@@ -1591,6 +1707,7 @@ locution
 lodge
 loft
 lofty
+log
 loin
 loincloth
 loins
@@ -1620,6 +1737,7 @@ luster
 lustre
 lusty
 lynchpin
+magnanimity
 magnificent
 magpie
 maim
@@ -1636,6 +1754,7 @@ malicious
 malign
 malignant
 malinger
+malingerer
 malleable
 malt
 manage
@@ -1659,6 +1778,7 @@ maud
 maudlin
 maul
 maunder
+maverick
 mawkish
 meager
 meagre
@@ -1672,10 +1792,12 @@ meiny
 melee
 mêlée
 mend
+mendacious
 mendicant
 menial
 merit
 metal
+metamorphosis
 mete
 meticulous
 mettle
@@ -1735,6 +1857,7 @@ muff
 mull
 mullion
 munch
+mundane
 munition
 murmur
 muse
@@ -1749,9 +1872,11 @@ nascent
 nebulous
 needful
 nefarious
+negate
 negligence
 negotiable
 neigh
+neophyte
 nestle
 nettle
 nibble
@@ -1811,6 +1936,7 @@ organization
 ornate
 ornery
 orotund
+oscillate
 osier
 ostensible
 ostensibly
@@ -1862,10 +1988,12 @@ pat
 pathological
 patronise
 patronize
+paucity
 pauper
 pay
 peculiar
 pedant
+pedantic
 peel
 peep
 peer
@@ -1881,6 +2009,7 @@ pennant
 pent
 pent-up
 penurious
+penury
 per pro
 perch
 percolate
@@ -1893,6 +2022,7 @@ peril
 perilous
 perjure
 perky
+permeable
 pernicious
 perpetrate
 perplex
@@ -1913,7 +2043,9 @@ pewter
 pharynx
 philanthropic
 phlebotomy
+phlegmatic
 piecemeal
+piety
 pigpen
 pigsty
 pigtail
@@ -1935,15 +2067,18 @@ placid
 plaintive
 plait
 planchet
+plasticity
 platitude
 plausible
 play hob
 plead
 pleat
+plethora
 plight
 plod
 pluck
 plug
+plummet
 plump
 plunder
 ply
@@ -1958,6 +2093,7 @@ ponderous
 poop
 poop deck
 pore
+porous
 portend
 portent
 poseur
@@ -1967,6 +2103,7 @@ postpone
 potherb
 pounce
 pound
+practical
 praenomen
 pragmatic
 prance
@@ -1975,6 +2112,7 @@ prate
 prattle
 prayer
 pre-eminent
+preamble
 precarious
 precedent
 precipitate
@@ -2012,8 +2150,11 @@ prim
 prime
 principal
 prise
+pristine
 prize
 probe
+probity
+problematic
 proceed
 proceeds
 proclivity
@@ -2025,12 +2166,15 @@ profligate
 profound
 profuse
 progressive
+prohibitive
 proliferate
 prolix
 promulgation
+propensity
 propitiate
 propitious
 propriety
+proscribe
 prostrate
 protract
 protracted
@@ -2048,6 +2192,7 @@ puck
 pucker
 pudency
 pulpit
+pungent
 puny
 purport
 purported
@@ -2064,6 +2209,7 @@ quack
 quagmire
 quail
 quaint
+qualified
 qualm
 quandary
 quarry
@@ -2113,6 +2259,7 @@ rant
 rap
 rapacious
 rapture
+rarefied
 rascal
 rash
 rate
@@ -2139,6 +2286,7 @@ rebuff
 rebuke
 rebut
 recalcitrant
+recant
 recapitulate
 receptive
 reciprocal
@@ -2146,6 +2294,7 @@ reciprocity
 recital
 reckon
 reclamation
+recluse
 reconcile
 recondite
 recourse
@@ -2159,6 +2308,7 @@ reeve
 refractory
 refrain
 refutal
+refute
 regime
 régime
 regimen
@@ -2190,11 +2340,13 @@ report
 reprehensible
 reprieve
 reprisal
+reproach
 reprobate
 reproof
 reproval
 repudiate
 repugnant
+requiring
 requisite
 requite
 rescind
@@ -2219,6 +2371,7 @@ revel
 revelation
 revelry
 revere
+reverent
 reverse
 revile
 revulsion
@@ -2276,19 +2429,24 @@ sagacity
 sage
 salient
 sallow
+salubrious
 salutary
 salve
 salvo
 sanctify
 sanctimonious
+sanction
 sap
 sapient
 sapling
 sassy
 sate
+satiate
+saturate
 saucy
 saunter
 savant
+savor
 savory
 saw
 scalawag
@@ -2346,6 +2504,7 @@ seamy
 sear
 searching
 sebaceous
+secrete
 see
 see fit
 seedy
@@ -2376,6 +2535,7 @@ sham
 shamble
 shambles
 shanty
+shard
 share
 shear
 sheen
@@ -2417,6 +2577,7 @@ singular
 sinking fund
 sinuous
 sit-in
+skeptic
 sketchy
 skidded
 skim
@@ -2518,6 +2679,7 @@ spate
 spatter
 specious
 speckle
+spectrum
 speculate
 spell
 spic
@@ -2620,6 +2782,7 @@ street cars
 strenuous
 stretch
 strew
+striated
 stride
 strident
 strife
@@ -2642,9 +2805,11 @@ suave
 sub-
 sub.
 subjugate
+subpoena
 subreption
 subscribe
 subservient
+subside
 substantiate
 subterfuge
 suggest
@@ -2664,12 +2829,14 @@ superciliary
 supercilious
 superlative
 supernumerary
+supersede
 supine
 supplant
 supple
 supplicate
 supplication
 supply
+supposition
 suppurate
 supraciliary
 surfeit
@@ -2711,6 +2878,7 @@ take on
 take out
 tallow
 tame
+tangential
 tankard
 tantalizing
 tape
@@ -2775,6 +2943,7 @@ tingle
 tipple
 tippy
 tipsy
+tirade
 tiro
 titbit
 to rights
@@ -2787,6 +2956,7 @@ tops
 torment
 torpid
 torpor
+tortuous
 toss
 tote bag
 totter
@@ -2794,10 +2964,12 @@ tout
 tow
 towhead
 tract
+tractable
 tramp
 trample
 tranquil
 transference
+transgression
 transom
 trappings
 traverse
@@ -2820,6 +2992,7 @@ troth
 trough
 trout
 truant
+truculence
 trudge
 trump
 trunk
@@ -2901,7 +3074,9 @@ venal
 venerate
 vent
 venture
+veracious
 veracity
+verbose
 verge
 veriest
 vermin
@@ -2915,6 +3090,7 @@ vest
 vested
 vex
 vexation
+viable
 vice
 vicious
 vicissitude
@@ -2928,8 +3104,10 @@ vim
 vindicate
 virgin
 virulent
+viscous
 vitiate
 vituperate
+vituperative
 vivacious
 viverrine
 vivid
@@ -2954,6 +3132,7 @@ wanton
 ward
 wares
 warp
+warranted
 warren
 wary
 waterspout
@@ -2965,6 +3144,7 @@ way out
 wayward
 wean
 wedge
+welter
 whack
 wham
 wheedle
@@ -2996,6 +3176,7 @@ wicked
 wield
 wieldy
 wile
+wilful
 willful
 wilt
 wily
@@ -3039,3 +3220,5 @@ yore
 yowl
 zap
 zeal
+zealot
+zealous
