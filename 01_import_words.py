@@ -3,13 +3,18 @@ import time
 import requests
 import yaml
 from pathlib import Path
+from openai import OpenAI
 
 
-WORDS_FILE = "words_100.txt"
+WORDS_FILE = "words.txt"
 YAML_FILE = "definitions.yaml"
 
-API_KEY = os.getenv("MERRIAM_WEBSTER_API_KEY")
-API_URL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"
+MW_API_KEY = os.getenv("MERRIAM_WEBSTER_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAPI_DICTIONARY_API_KEY")
+
+MW_URL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"
+
+client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 
 # -----------------------------
@@ -22,11 +27,8 @@ def load_yaml():
         return []
 
     with open(path, "r", encoding="utf-8") as f:
-        try:
-            data = yaml.safe_load(f)
-            return data if data else []
-        except yaml.YAMLError:
-            return []
+        data = yaml.safe_load(f)
+        return data if data else []
 
 
 def save_yaml(data):
@@ -34,12 +36,8 @@ def save_yaml(data):
         yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
 
 
-def already_imported(words_set):
-    existing = load_yaml()
-    for entry in existing:
-        if "word" in entry:
-            words_set.add(entry["word"].lower())
-    return existing, words_set
+def index_words(data):
+    return {entry["word"].lower(): entry for entry in data if "word" in entry}
 
 
 # -----------------------------
@@ -52,78 +50,149 @@ def load_words():
 
 
 # -----------------------------
-# Merriam-Webster lookup
+# Merriam-Webster
 # -----------------------------
 
-def fetch_definition(word):
-    if not API_KEY:
-        raise RuntimeError("Missing MERRIAM_WEBSTER_API_KEY")
+def fetch_mw(word):
+    if not MW_API_KEY:
+        return []
 
-    url = f"{API_URL}{word}"
-    params = {"key": API_KEY}
+    url = f"{MW_URL}{word}"
 
     try:
-        r = requests.get(url, params=params, timeout=10)
+        r = requests.get(url, params={"key": MW_API_KEY}, timeout=10)
         r.raise_for_status()
         data = r.json()
 
-        # MW sometimes returns suggestions instead of entries
-        if not isinstance(data, list) or len(data) == 0:
-            return None
+        if not isinstance(data, list):
+            return []
 
         entry = data[0]
 
-        # If suggestion list returned (strings instead of dicts)
         if isinstance(entry, str):
-            return None
+            return []
 
-        # Try to extract shortdef
-        if "shortdef" in entry and entry["shortdef"]:
-            return entry["shortdef"][0]
+        results = []
 
-        # fallback: deeper structure
-        if "def" in entry:
-            return str(entry["def"][0])
+        if "shortdef" in entry:
+            for i, d in enumerate(entry["shortdef"]):
+                results.append({
+                    "text": d,
+                    "source": "merriam-webster",
+                    "sense": i + 1,
+                    "primary": i == 0
+                })
 
-        return None
+        return results
 
     except Exception as e:
-        print(f"[ERROR] {word}: {e}")
-        return None
+        print(f"[MW ERROR] {word}: {e}")
+        return []
 
 
 # -----------------------------
-# Main importer
+# OpenAI fallback
+# -----------------------------
+
+def fetch_openai(word):
+    if not client:
+        return []
+
+    try:
+        prompt = f"""
+Provide dictionary definitions for the word: "{word}"
+
+Rules:
+- one meaning per line
+- max 12 words per definition
+- no synonyms
+- no examples
+- dictionary style only
+- if multiple meanings exist, list them separately
+"""
+
+        response = client.chat.completions.create(
+            model="gpt-4.1-mini",
+            messages=[
+                {"role": "system", "content": "You are a precise lexicographer."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.2,
+        )
+
+        text = response.choices[0].message.content.strip()
+
+        lines = [l.strip("-• ").strip() for l in text.split("\n") if l.strip()]
+
+        results = []
+
+        for i, line in enumerate(lines):
+            results.append({
+                "text": line,
+                "source": "openai",
+                "sense": i + 1,
+                "primary": False
+            })
+
+        return results
+
+    except Exception as e:
+        print(f"[OPENAI ERROR] {word}: {e}")
+        return []
+
+
+# -----------------------------
+# Merge logic
+# -----------------------------
+
+def merge_entries(existing_entries, new_entries):
+    seen = set(e["text"].lower() for e in existing_entries)
+
+    for e in new_entries:
+        if e["text"].lower() not in seen:
+            existing_entries.append(e)
+            seen.add(e["text"].lower())
+
+    return existing_entries
+
+
+# -----------------------------
+# Main
 # -----------------------------
 
 def main():
     words = load_words()
-
-    existing, imported_set = already_imported(set())
+    data = load_yaml()
+    word_index = index_words(data)
 
     print(f"Loaded words: {len(words)}")
-    print(f"Already imported: {len(imported_set)}")
-
-    new_entries = []
+    print(f"Existing entries: {len(data)}")
 
     for i, word in enumerate(words):
-        w = word.lower()
+        key = word.lower()
 
-        if w in imported_set:
+        if key in word_index:
             continue
 
-        print(f"[{i+1}/{len(words)}] Fetching: {word}")
+        print(f"[{i+1}/{len(words)}] Processing: {word}")
 
-        definition = fetch_definition(word)
+        mw_entries = fetch_mw(word)
 
-        if not definition:
-            print(f"  -> No definition found")
+        if mw_entries:
+            entries = mw_entries
+            print("  -> Merriam-Webster OK")
+        else:
+            print("  -> MW missing, using OpenAI fallback")
+            entries = fetch_openai(word)
+
+        if not entries:
+            print("  -> No definitions found")
             continue
 
         entry = {
             "word": word,
-            "definition": definition,
-            "source": "merriam-webster",
+            "entries": entries,
+            "status": "imported",
             "reviewed": False,
             "distractors": {
                 "generated": [],
@@ -131,19 +200,14 @@ def main():
             }
         }
 
-        new_entries.append(entry)
-        imported_set.add(w)
+        data.append(entry)
+        save_yaml(data)
 
-        # incremental save (important for long runs)
-        save_yaml(existing + new_entries)
+        print(f"  -> saved ({len(entries)} entries)")
 
-        print(f"  -> OK")
-
-        # light rate limiting (safe default)
         time.sleep(0.25)
 
     print("\nDone.")
-    print(f"New entries added: {len(new_entries)}")
 
 
 if __name__ == "__main__":
