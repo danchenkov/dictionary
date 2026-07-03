@@ -6,6 +6,10 @@ import yaml
 from pathlib import Path
 from openai import OpenAI
 
+from normalize import (
+    normalize_definition,
+    normalize_mw_definition,
+)
 
 WORDS_FILE = "words_100.txt"
 YAML_FILE = "definitions.yaml"
@@ -39,30 +43,6 @@ def save_yaml(data):
 
 def index_words(data):
     return {entry["word"].lower(): entry for entry in data if "word" in entry}
-
-
-def clean_definition(text: str) -> str:
-    """
-    Removes leading numbering like:
-    '1. ', '2) ', '3 - ', etc.
-    """
-
-    if not text:
-        return text
-
-    return re.sub(r'^\s*\d+\s*[\.\)\-–]\s*', '', text).strip()
-
-
-def normalize_definition(text):
-    text = clean_definition(text)
-
-    # unify spacing around semicolons
-    text = re.sub(r'\s*;\s*', '; ', text)
-
-    # remove trailing periods (optional style decision)
-    text = text.strip()
-
-    return text
 
 
 # -----------------------------
@@ -101,8 +81,9 @@ def fetch_mw(word):
 
         if "shortdef" in entry:
             for i, d in enumerate(entry["shortdef"]):
+                cleaned = normalize_mw_definition(word, d)
                 results.append({
-                    "text": d,
+                    "text": cleaned,
                     "source": "merriam-webster",
                     "sense": i + 1,
                     "primary": i == 0
@@ -156,8 +137,7 @@ Rules:
             # remove bullet markers
             l = l.lstrip("-• ").strip()
 
-            # remove numbering (NEW)
-            l = clean_definition(l)
+            l = normalize_definition(normalize_mw_definition(word, l))
 
             if l:
                 lines.append(l)

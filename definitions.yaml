@@ -1,7 +1,6 @@
 - word: accede
   canonical: &id001
-    text: 'to express approval or give consent : to agree to a request or demand —usually
-      + to'
+    text: 'to express approval or give consent : to agree to a request or demand'
     source: merriam-webster
     sense: 1
     primary: true
@@ -487,8 +486,7 @@
     approved: []
 - word: sconce
   canonical: &id015
-    text: 'a bracket candlestick or group of candlesticks; also : an electric light
-      fixture patterned on a candle sconce'
+    text: 'a bracket candlestick or group of candlesticks'
     source: merriam-webster
     sense: 1
     primary: true
@@ -511,7 +509,7 @@
     sense: 3
     primary: false
   status: imported
-  reviewed: false
+  reviewed: true
   distractors:
     generated: []
     approved: []
