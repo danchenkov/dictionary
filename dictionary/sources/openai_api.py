@@ -113,7 +113,6 @@ def fetch_openai_definitions(
                     "source": "openai",
                     "sense": i + 1,
                     "primary": False,
-                    "pos": pos,
                 }
             )
 

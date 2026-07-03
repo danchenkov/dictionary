@@ -14,7 +14,7 @@ MW_API_KEY = os.getenv("MERRIAM_WEBSTER_API_KEY")
 MW_URL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"
 
 
-def fetch_mw_definitions(word: str) -> list[Definition]:
+def fetch_mw_definitions(word: str) -> tuple[list[Definition], str | None]:
     """
     Fetch definitions from Merriam-Webster Collegiate API.
 
@@ -22,7 +22,7 @@ def fetch_mw_definitions(word: str) -> list[Definition]:
     """
 
     if not MW_API_KEY:
-        return []
+        return [], None
 
     url = f"{MW_URL}{word}"
 
@@ -37,18 +37,16 @@ def fetch_mw_definitions(word: str) -> list[Definition]:
         data = response.json()
 
         if not isinstance(data, list):
-            return []
+            return [], None
 
         entry = data[0]
 
         if isinstance(entry, str):
-            return []
-
-        pos: Optional[str] = entry.get("fl")
+            return [], None
 
         shortdefs = entry.get("shortdef", [])
         if not isinstance(shortdefs, list):
-            return []
+            return [], None
 
         results: list[Definition] = []
 
@@ -70,8 +68,8 @@ def fetch_mw_definitions(word: str) -> list[Definition]:
                 }
             )
 
-        return results
+        return results, entry.get("fl")
 
     except Exception as e:
         print(f"[MW ERROR] {word}: {e}")
-        return []
+        return [], None

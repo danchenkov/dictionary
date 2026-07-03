@@ -26,6 +26,14 @@ class DefinitionResult:
         self.source_primary = source_primary
 
 
+def extract_pos(entries: list[Definition]) -> str | None:
+    for e in entries:
+        pos = e.get("pos")
+        if pos:
+            return pos
+    return None
+
+
 def fetch_definitions(
     word: str,
     use_openai_fallback: bool = True,
@@ -40,8 +48,7 @@ def fetch_definitions(
     3. Optionally enrich MW with OpenAI extras
     """
 
-    mw_entries = fetch_mw_definitions(word)
-    mw_pos = mw_entries[0]["pos"] if mw_entries else None
+    mw_entries, mw_pos = fetch_mw_definitions(word)
 
     openai_entries: list[Definition] = []
 

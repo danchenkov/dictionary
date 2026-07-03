@@ -19,6 +19,8 @@ def normalize_definition(text: str) -> str:
     text = re.sub(r'\s*;\s*', '; ', text)
 
     # remove trailing periods (optional style decision)
+    text = text.rstrip(" .;")
+
     text = text.strip()
 
     return text
@@ -60,7 +62,9 @@ def normalize_mw_definition(
     # -----------------------------
     # 5. Clean up artifacts
     # -----------------------------
+    t = re.sub(r"\s+:\s+", "; ", t)
     t = re.sub(r'\s+', ' ', t).strip()
+
 
     return t
 
