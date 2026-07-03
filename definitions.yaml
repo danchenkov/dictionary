@@ -22,27 +22,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: An abridged version that condenses essential information or ideas.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A concise account of events or facts without detailed explanation.
+    pos: adjective
+  - text: A concise account of events or facts, often for quick understanding.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A final statement or report summarizing conclusions or results.
+    pos: adjective
+  - text: A final section that reviews or concludes the content discussed.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: An official document outlining key aspects of a legal case or trial.
+    pos: adjective
+  - text: An official report providing an overview of findings or results.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -61,21 +61,21 @@
     sense: 2
     primary: false
     pos: adjective
-  - text: Having a rough or harsh voice or manner.
+  - text: Having a rough or harsh manner or voice.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Displaying a blunt or brusque demeanor, often seeming unfriendly.
+    pos: adjective
+  - text: Marked by brusqueness or sternness in speech or behavior.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Characterized by a stern or surly temperament.
+    pos: adjective
+  - text: Low and hoarse in sound.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -94,16 +94,27 @@
     sense: 2
     primary: false
     pos: verb
-  - text: To experience a slight prickling or stinging sensation on the skin.
+  - text: tinkle
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
+  - text: Experience a slight prickling or stinging sensation on the skin.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To feel a subtle excitement or thrill, often accompanied by a physical sensation.
+    pos: verb
+  - text: Feel a thrilling or excited sensation often associated with anticipation
+      or nervousness.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
+  - text: Produce a slight prickling or stinging feeling, especially on the skin.
+    source: openai
+    sense: 3
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -133,29 +144,29 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: Knowledge or practical wisdom gained from what one has observed or participated
       in.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: The accumulation of events or activities that influence understanding or
-      skill.
+    pos: noun
+  - text: The accumulation of skills or understanding through direct involvement or
+      exposure.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: An event or occurrence that leaves an impression on someone’s mind or feelings.
+    pos: noun
+  - text: An event or occurrence that leaves an impression on a person.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: The conscious awareness of sensations or feelings during an event or activity.
+    pos: noun
+  - text: The conscious awareness of sensations, thoughts, or feelings during an event.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -183,17 +194,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An act of touching or stroking in a tender manner.
+    pos: verb
+  - text: An act of touching softly and affectionately.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To touch or stroke softly and affectionately.
+    pos: verb
+  - text: To touch or stroke in a gentle, loving manner.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -221,27 +232,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To contaminate or pollute with a harmful or undesirable substance.
+    pos: verb
+  - text: To contaminate or pollute something morally or physically.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To affect with a moral defect or infection.
+    pos: verb
+  - text: To affect with a bad or undesirable quality.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To impart a trace of something offensive or harmful.
+    pos: verb
+  - text: To place suspicion or doubt on the integrity of something.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To spoil or impair the quality or purity of something.
+    pos: verb
+  - text: A trace of infection or contamination in a substance or environment.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -259,12 +270,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A situation or plan that is disrupted or overturned unexpectedly.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -293,17 +304,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To introduce or insert oneself gradually or stealthily.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To maneuver into a position by subtle or artful means.
+    pos: verb
+  - text: To maneuver or introduce something into a position with difficulty.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -327,26 +338,26 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A wooden shoe with a thick, often elevated sole.
+  - text: A wooden shoe with a thick, often wooden sole.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: To obstruct or block a passage or flow.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To become filled or blocked, preventing normal movement.
+    pos: noun
+  - text: To become blocked or filled, preventing normal movement.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To hinder or slow down progress or movement.
+    pos: noun
+  - text: To hinder or slow down progress or activity.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -366,12 +377,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A glazed panel set over a door to admit light into a hallway or room.
+    pos: noun
+  - text: A window designed to admit light and sometimes air, placed over an entrance.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -390,16 +401,16 @@
     sense: 2
     primary: false
     pos: noun
-  - text: An enclosure where swine are kept.
+  - text: An enclosure or pen where pigs are kept.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A messy or dirty place or condition.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -413,21 +424,21 @@
     pos: phrase
   entries:
   - *id012
-  - text: To make amends or reparation for a wrongdoing or injury.
+  - text: To make amends or reparations for a wrongdoing or sin.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To show remorse or penitence for an offense or fault.
+    pos: phrase
+  - text: To show remorse or penitence for an offense committed.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To reconcile or bring into harmony after a conflict or error.
+    pos: phrase
+  - text: To reconcile or restore a relationship after a fault or injury.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: phrase
   status: imported
   reviewed: false
   distractors: []
@@ -455,52 +466,32 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Resistant to movement or bending; firm in texture.
+    pos: adjective
+  - text: Showing little or no flexibility in movement or expression.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Lacking flexibility or suppleness in muscles or joints.
+    pos: adjective
+  - text: Difficult to move or operate due to rigidity or resistance.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Marked by formality or severity in manner or style.
+    pos: adjective
+  - text: Marked by formality or seriousness in behavior or style.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Difficult to move or operate due to rigidity or hardness.
+    pos: adjective
+  - text: Excessively severe or harsh in treatment or judgment.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: Excessively severe or harsh in treatment or behavior.
+    pos: adjective
+  - text: Characterized by soreness or pain, especially after exertion.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: Characterized by a high degree of difficulty or effort.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
-  - text: Having a strong or unpleasant taste or odor.
-    source: openai
-    sense: 8
-    primary: false
-    pos: null
-  - text: Involving a large amount of money or expense.
-    source: openai
-    sense: 9
-    primary: false
-    pos: null
-  - text: Experiencing soreness or pain due to exertion or injury.
-    source: openai
-    sense: 10
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -515,16 +506,21 @@
     pos: noun
   entries:
   - *id014
+  - text: head, skull
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
   - text: A bracket for holding a candle or light, attached to a wall.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A small defensive fortification or earthwork on a battlefield.
+    pos: noun
+  - text: A small defensive fortification projecting from a larger fort or wall.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -552,36 +548,42 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Progressing very slowly or with difficulty.
+    pos: verb
+  - text: Progressing slowly or with difficulty, often in a laborious or hesitant
+      manner.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Advancing in a manner resembling the slow movement of an insect or small
-      animal.
+    pos: verb
+  - text: Referring to a slow, steady movement of insects or small creatures across
+      a surface.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Referring to a web page loading very slowly.
+    pos: verb
+  - text: Describing a gradual increase or spread, especially of information or influence.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
 - word: beguile
   pos: verb
   canonical: &id016
-    text: to engage the interest of by or as if by guile
+    text: hoodwink
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: verb
+  entries:
+  - *id016
+  - text: to engage the interest of by or as if by guile
     source: merriam-webster
     sense: 2
     primary: false
     pos: verb
-  entries:
-  - *id016
   - text: to lead by deception
     source: merriam-webster
     sense: 3
@@ -591,17 +593,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To divert or pass time pleasantly.
+    pos: verb
+  - text: To mislead or trick by using charm or cleverness.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To influence by trickery, flattery, or artful deception.
+    pos: verb
+  - text: To pass time pleasantly or enjoyably.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -626,31 +628,31 @@
     sense: 3
     primary: false
     pos: noun
-  - text: Security pledged for the repayment of a loan or obligation.
+  - text: Security pledged for the repayment of a loan or fulfillment of an obligation.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Secondary or subordinate in position or importance.
+    pos: noun
+  - text: Secondary or subordinate in position, importance, or effect.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Accompanying as a related but less important result or effect.
+    pos: noun
+  - text: Damage or loss suffered incidentally during an intended action or event.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   - text: Situated side by side or running parallel.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Damage or loss occurring as an unintended consequence of an action.
+    pos: noun
+  - text: Additional but subordinate or supplementary in nature or function.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -674,21 +676,22 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To render unclear or unintelligible by confusing or obscuring meaning.
+  - text: To render unclear or unintelligible, especially by confusing or obscuring
+      meaning.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To deliberately make information difficult to understand or interpret.
+    pos: verb
+  - text: To deliberately make something difficult to understand or interpret.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To darken or obscure something, making it less visible or comprehensible.
+    pos: verb
+  - text: To darken or obscure, causing something to be less visible or comprehensible.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -716,27 +719,28 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Not clear or distinct in outline or detail.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Having a blurred or indistinct appearance.
+    pos: adjective
+  - text: Characterized by indistinctness or vagueness in perception or understanding.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Characterized by uncertainty or vagueness.
+    pos: adjective
+  - text: Having a warm, soft, and slightly blurred appearance or texture.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Relating to a logic system allowing partial truth values.
+    pos: adjective
+  - text: Relating to or denoting a type of logic dealing with approximate rather
+      than fixed values.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -760,41 +764,36 @@
     sense: 3
     primary: false
     pos: noun
-  - text: Remove something from a place or container.
+  - text: To remove something from a place or container.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Obtain food or drink to be consumed elsewhere.
+    pos: noun
+  - text: To obtain food or drink to be consumed elsewhere.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Arrange for someone to be accompanied socially outside the home.
+    pos: noun
+  - text: To arrange a formal agreement or insurance policy.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Eliminate or destroy something, especially by force.
+    pos: noun
+  - text: To kill or eliminate a target or opponent.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Withdraw money from a bank or account.
+    pos: noun
+  - text: To extract or withdraw money from an account.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: Secure a loan or insurance policy.
+    pos: noun
+  - text: To take someone on a social outing or date.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: Extract a tooth or other body part surgically.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -813,64 +812,74 @@
     sense: 2
     primary: false
     pos: verb
+  - text: elate
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
   - text: To raise in rank, power, or character.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To praise highly or glorify.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To elevate in position, dignity, or honor.
+    pos: verb
+  - text: To elevate in dignity or honor.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To intensify or increase the value or quality of something.
+    pos: verb
+  - text: To intensify the value or status of something.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
 - word: chuck
-  pos: null
+  pos: verb
   canonical: &id022
-    text: To throw or toss something casually or with little force.
+    text: cluck
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: verb
+  entries:
+  - *id022
+  - text: To throw or toss something casually or with little force.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  entries:
-  - *id022
-  - text: A device for holding a workpiece or tool firmly in place.
+    pos: verb
+  - text: A device for holding a rotating tool or workpiece in a machine.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To discard or abandon something or someone abruptly.
+    pos: verb
+  - text: To discard or get rid of something abruptly or carelessly.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A cut of meat from the shoulder of a cow.
+    pos: verb
+  - text: A cut of beef taken from the shoulder area of cattle.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To give up or quit an activity or position.
+    pos: verb
+  - text: To give up or abandon a task or responsibility.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To pat or tap gently, especially on the head.
+    pos: verb
+  - text: To pat or tap someone affectionately or encouragingly.
     source: openai
     sense: 6
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -885,21 +894,26 @@
     pos: noun
   entries:
   - *id023
+  - text: flotsam
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
   - text: Goods or equipment thrown overboard from a ship to lighten it.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Cargo or equipment cast overboard deliberately to save a vessel in distress.
+    pos: noun
+  - text: Cargo discarded deliberately to prevent a vessel from sinking.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Material discarded from a ship to prevent sinking during emergency situations.
+    pos: noun
+  - text: Material cast off a ship in distress to improve stability or buoyancy.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -918,26 +932,31 @@
     sense: 2
     primary: false
     pos: verb
+  - text: effect, cause
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
   - text: To cause a particular effect or result to happen.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To lead or move by persuasion or influence.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To bring about the onset of labor in childbirth.
+    pos: verb
+  - text: To bring about or stimulate a physiological response.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To derive general principles from specific observations or facts.
+    pos: verb
+  - text: To derive a general principle from specific facts or instances.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -961,34 +980,39 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A deep-seated feeling of aversion or strong dislike.
+  - text: A deep-seated feeling of dislike or aversion.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An instinctive opposition in feeling or attitude toward something.
+    pos: noun
+  - text: A natural, basic, or habitual repugnance.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A natural repugnance or hostility toward a person or thing.
+    pos: noun
+  - text: An instinctive opposition in feeling or action.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
 - word: buck
   pos: noun
   canonical: &id026
-    text: 'a sum of money especially to be gained; also : money'
+    text: dollar
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: noun
+  entries:
+  - *id026
+  - text: 'a sum of money especially to be gained; also : money'
     source: merriam-webster
     sense: 2
     primary: false
     pos: noun
-  entries:
-  - *id026
   - text: —used in place of "hundred" in combination with other numbers
     source: merriam-webster
     sense: 3
@@ -998,42 +1022,32 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To leap or spring with a sudden movement.
+    pos: noun
+  - text: A dollar or unit of currency in informal usage.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To resist or oppose forcefully.
+    pos: noun
+  - text: To leap or spring with a sudden movement.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A unit of currency, especially one dollar.
+    pos: noun
+  - text: To resist or oppose forcefully.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To throw off a rider by sudden movements.
+    pos: noun
+  - text: A male goat.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: A male goat.
+    pos: noun
+  - text: To throw off a rider, especially a horse.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: To invest or wager money on an outcome.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
-  - text: A term for a young man or boy.
-    source: openai
-    sense: 8
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1047,19 +1061,15 @@
     pos: noun
   entries:
   - *id027
-  - text: A tide that opposes another or other tides, causing a violent disturbance in the sea.
-    source: random_house
+  - text: A strong, fast-moving current flowing away from the shore through a narrow
+      channel.
+    source: openai
+    sense: 1
+    primary: false
+    pos: noun
+  - text: A powerful tidal flow that can pull swimmers away from the beach.
+    source: openai
     sense: 2
-    primary: false
-    pos: noun
-  - text: A strong, fast-moving tidal current flowing away from the shore.
-    source: openai
-    sense: 3
-    primary: false
-    pos: noun
-  - text: A powerful water current caused by the tide moving rapidly seaward.
-    source: openai
-    sense: 4
     primary: false
     pos: noun
   status: imported
@@ -1075,49 +1085,55 @@
     pos: adjective
   entries:
   - *id028
-  - text: Having or showing skill, cleverness, or resourcefulness in handling situations.
+  - text: Having skill or cleverness in using the hands or mind.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Marked by skillful use of the hands or mind.
+    pos: adjective
+  - text: Marked by skill and resourcefulness in handling situations.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
 - word: complexity
   pos: noun
   canonical: &id029
-    text: the quality or state of being complex
+    text: something complex
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: noun
+  entries:
+  - *id029
+  - text: the quality or state of being complex
     source: merriam-webster
     sense: 2
     primary: false
     pos: noun
-  entries:
-  - *id029
   - text: The state or quality of being intricate or complicated.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: The condition of having multiple interconnected parts or elements.
+    pos: noun
+  - text: The condition of having many interconnected parts or elements.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   - text: The degree to which something is difficult to understand or analyze.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A characteristic of systems with many components and unpredictable interactions.
+    pos: noun
+  - text: A characteristic of systems with multiple interacting components and unpredictable
+      behavior.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1145,32 +1161,32 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Having a cool, clean, or invigorating quality, especially of air or water.
+    pos: adjective
+  - text: Having a cool, clean, or invigorating quality or taste.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: New or different from what has been known before; original or novel.
+    pos: adjective
+  - text: New or different from what has been known before.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Lacking experience or sophistication; inexperienced or naive.
+    pos: adjective
+  - text: Lacking experience; inexperienced or naive.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Bold or impudent in behavior or speech.
+    pos: adjective
+  - text: Bold or impudent in speech or behavior.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: Recently washed or cleaned and therefore appearing bright or pure.
+    pos: adjective
+  - text: Free from dirt, decay, or contamination.
     source: openai
     sense: 6
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -1193,17 +1209,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To ascribe responsibility or fault to someone or something.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To assign a value or characteristic to an entity in accounting or logic.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1232,17 +1248,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To descend to a less formal or dignified level in behavior or speech.
+    pos: verb
+  - text: To descend voluntarily to a lower rank or position than one's own.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To willingly do something considered beneath one's social rank or dignity.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1261,21 +1272,26 @@
     sense: 2
     primary: false
     pos: verb
+  - text: seduce
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
   - text: To lead away from virtue or excellence by sensual pleasures.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To corrupt morally or by intemperance or sensuality.
+    pos: verb
+  - text: An act or occasion of excessive indulgence in sensual pleasures.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: An act or occasion of excessive indulgence in sensual pleasures.
+    pos: verb
+  - text: To corrupt morally or by intemperance and sensuality.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1303,52 +1319,32 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To keep or maintain in a particular position or condition.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To have or contain within a space or capacity.
+    pos: verb
+  - text: To have or contain within a specified capacity.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To delay or detain temporarily.
+    pos: verb
+  - text: To delay or restrain from proceeding or acting.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   - text: To organize or conduct an event or meeting.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To remain valid or effective over a period of time.
+    pos: verb
+  - text: To consider or regard as valid or true.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: To support or bear the weight of something.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
-  - text: To keep possession or control of something.
-    source: openai
-    sense: 8
-    primary: false
-    pos: null
-  - text: To maintain a particular opinion or belief.
-    source: openai
-    sense: 9
-    primary: false
-    pos: null
-  - text: To reserve or arrange in advance.
-    source: openai
-    sense: 10
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1366,12 +1362,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To express admiration or approval in a highly positive manner.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1385,21 +1381,21 @@
     pos: adjective
   entries:
   - *id036
-  - text: Kept secret or done secretively, especially because illicit or unauthorized.
+  - text: Conducted with secrecy to avoid detection or unauthorized knowledge.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Conducted with hidden aims or intentions to avoid notice or attention.
+    pos: adjective
+  - text: Characterized by concealment for purposes of deception or illicit activity.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Characterized by concealment to evade detection or legal restrictions.
+    pos: adjective
+  - text: Done in private or kept hidden to evade official scrutiny or attention.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -1428,17 +1424,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To fix firmly on a stake or sharp instrument.
+    pos: verb
+  - text: To cause to be fixed or impaled on a stake or sharp instrument.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To cause to be impaled or pierced through the body.
+    pos: verb
+  - text: To pierce through the body or a part with a pointed weapon.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1467,27 +1463,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A sudden quick movement in a specified direction.
+    pos: noun
+  - text: A sudden quick movement or glance in a particular direction.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   - text: A short, narrow fold sewn into fabric to shape a garment.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To move swiftly and suddenly in a particular direction.
+    pos: noun
+  - text: To move swiftly and suddenly in a specified direction.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: A game involving throwing pointed missiles at a circular target.
+    pos: noun
+  - text: A small pointed object used in the game of darts.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1506,26 +1502,26 @@
     sense: 2
     primary: false
     pos: verb
+  - text: elate
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
   - text: To raise in rank, power, or character.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To praise highly or glorify.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To elevate in dignity or honor.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To intensify or increase the value of.
-    source: openai
-    sense: 4
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1553,17 +1549,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Having parts torn and hanging loosely.
+    pos: adjective
+  - text: Having edges or parts torn and hanging loosely.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Appearing shabby or dilapidated from neglect or damage.
+    pos: adjective
+  - text: In a state of disrepair or ruin from neglect or damage.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -1577,16 +1573,16 @@
     pos: adjective
   entries:
   - *id041
-  - text: Having a sharp or biting taste or character.
+  - text: Having a sharp, bitter, or sour taste or character.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Expressing harsh or critical remarks in a direct manner.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -1610,26 +1606,26 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To suppose something is true without certain proof.
+  - text: To suppose something is true based on probability or reasonable evidence.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To take for granted or assume something in advance.
+    pos: verb
+  - text: To take for granted without proof or certain knowledge.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To act with unwarranted boldness or confidence.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   - text: To undertake or do something without permission or right.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1652,17 +1648,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Exhibiting a lack of sound judgment or common sense.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Marked by absurdity or silliness that defies reason.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -1681,12 +1672,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To wrongfully or illegally exact money or favors from someone.
+    pos: verb
+  - text: To wrongfully or illegally exact money, information, or favors from someone.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1714,17 +1705,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A place where a particular belief or activity is strongly maintained.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A center of power or influence in a specific area.
+    pos: noun
+  - text: A location that serves as a center of power or influence.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1748,26 +1739,26 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To remove cargo or goods from a vehicle or container.
+  - text: Remove cargo or goods from a vehicle, ship, or container.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To discharge a firearm by releasing its contents.
+    pos: verb
+  - text: Discharge a firearm by releasing its ammunition.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To relieve oneself of a burden or responsibility.
+    pos: verb
+  - text: Transfer data or files from a device to another location.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To transfer data or programs from a computer's memory.
+    pos: verb
+  - text: Relieve oneself of a burden or responsibility.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -1790,12 +1781,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: An authoritative order or directive given to be followed.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1813,17 +1804,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: An emotion characterized by strong aversion and repulsion.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A deep sense of hatred or extreme distaste.
+    pos: noun
+  - text: A deep and passionate sense of hatred or detestation.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1848,22 +1839,26 @@
     sense: 3
     primary: false
     pos: noun
-  - text: The range or collection of skills or performances a person can produce.
+  - text: The range of skills or abilities a person habitually uses.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A set of works or pieces that an artist or company is prepared to perform.
+    pos: noun
+  - text: A collection of works an artist or company is prepared to perform.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: The entire stock of skills, techniques, or devices used in a particular
-      field.
+    pos: noun
+  - text: The entire stock of plays, songs, or pieces that a performer knows.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
+  - text: A set of techniques or devices used in a particular field or activity.
+    source: openai
+    sense: 4
+    primary: false
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1877,17 +1872,21 @@
     pos: noun
   entries:
   - *id050
-  - text: Willingness to believe or trust too readily, especially without proper evidence.
+  - text: A tendency to be too ready to believe something is true.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Tendency to be easily convinced or deceived due to excessive readiness to
-      believe.
+    pos: noun
+  - text: Willingness to believe or trust too easily without sufficient evidence.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
+  - text: The quality of being easily convinced or deceived.
+    source: openai
+    sense: 3
+    primary: false
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1901,36 +1900,36 @@
     pos: noun
   entries:
   - *id051
-  - text: A place dug in the ground for burying a dead body.
+  - text: death
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
+  - text: A place dug in the earth for burying a dead body.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: Serious or solemn in manner or appearance.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   - text: Requiring careful consideration or concern due to importance.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Marked by extreme or intense severity or seriousness.
+    pos: noun
+  - text: Having a weighty or significant effect or consequence.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To carve or engrave letters or designs on a surface.
+    pos: noun
+  - text: Deep or low in tone or sound.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To cause to sink or become deeply fixed in a particular place.
-    source: openai
-    sense: 6
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -1953,17 +1952,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Marked by sudden and forceful energy or emotion.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   - text: Characterized by impulsive or rash behavior.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -1986,17 +1985,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adverb
   - text: From that source or cause.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: In connection with that matter or thing.
+    pos: adverb
+  - text: In connection with that matter or document.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adverb
   status: imported
   reviewed: false
   distractors: []
@@ -2020,12 +2019,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To make someone uncertain or unclear about what to think or do.
+    pos: verb
+  - text: To make someone feel lost or uncertain in understanding.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2044,31 +2043,31 @@
     sense: 2
     primary: false
     pos: adjective
-  - text: Having more than enough space or capacity.
+  - text: buxom, portly
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: adjective
+  - text: Having more than enough space, size, or capacity to accommodate needs.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Fully sufficient to meet a particular need or purpose.
+    pos: adjective
+  - text: Fully sufficient in quantity or extent to meet a particular purpose.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Large in size, extent, or amount.
+    pos: adjective
+  - text: Generous or abundant in amount, degree, or scope.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Generous or abundant in quantity or degree.
+    pos: adjective
+  - text: Characterized by fullness or largeness in form or dimension.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Wide or broad in dimensions or scope.
-    source: openai
-    sense: 5
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2092,21 +2091,16 @@
     sense: 3
     primary: false
     pos: noun
-  - text: Expressing strong disapproval or criticism, especially in an official statement.
+  - text: An official expression of strong disapproval or condemnation.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An official reprimand or condemnation issued by an authoritative body.
+    pos: noun
+  - text: To express severe criticism or disapproval formally or publicly.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To express formal disapproval of someone's actions or behavior publicly.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2125,16 +2119,21 @@
     sense: 2
     primary: false
     pos: verb
-  - text: To avoid or neglect a duty or responsibility.
+  - text: avoid, evade
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
+  - text: To avoid or neglect a duty or responsibility deliberately.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To evade work or effort through laziness or avoidance.
+    pos: verb
+  - text: To evade work, duty, or a task through laziness or avoidance.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2148,16 +2147,16 @@
     pos: adjective
   entries:
   - *id058
-  - text: Deserving praise and commendation for actions or qualities.
+  - text: Deserving praise and commendation for an action or quality.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Worthy of approval due to commendable behavior or achievements.
+    pos: adjective
+  - text: Worthy of approval or admiration due to excellence or merit.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2176,17 +2175,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Having the power to influence someone's thoughts, beliefs, or actions effectively.
+    pos: adjective
+  - text: Having the power to influence or induce belief or action effectively.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Capable of causing someone to accept a point of view or argument.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2200,21 +2194,21 @@
     pos: adjective
   entries:
   - *id060
-  - text: Distant in interest, feeling, or emotion; reserved and remote.
+  - text: Distant in feeling, interest, or involvement; emotionally reserved.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Physically or emotionally detached or uninvolved.
+    pos: adjective
+  - text: Physically or emotionally detached from others; standing apart.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Standing apart from others by choice or habit.
+    pos: adjective
+  - text: Marked by a disinterest or unwillingness to engage with others.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2232,12 +2226,10 @@
     source: openai
     sense: 2
     primary: false
-    pos: adjective
-  - text: Marked by misery or grief.
+  - text: Involving or expressing great sadness or wretchedness.
     source: openai
     sense: 3
     primary: false
-    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2251,16 +2243,21 @@
     pos: verb
   entries:
   - *id062
-  - text: To carry out a task clumsily or incompetently, causing failure.
+  - text: mishandle, botch
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: verb
+  - text: To carry out a task clumsily or incompetently, causing failure or errors.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To make a mess of something through careless or awkward handling.
+    pos: verb
+  - text: To spoil or mishandle a job or activity through ineptitude or carelessness.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2285,31 +2282,31 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To make an intentionally false statement with the purpose to deceive.
+  - text: To make an untrue statement with intent to deceive.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To be in or assume a horizontal or resting position.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To be situated or located in a particular place or position.
+    pos: verb
+  - text: To remain or be situated in a specified place or condition.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To remain in a specified state or condition.
+    pos: verb
+  - text: To rest or recline on a surface.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To recline or rest on a surface.
+    pos: verb
+  - text: To be found or located in a particular place or state.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2338,17 +2335,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An inherent power or authority held by a government or official.
+    pos: noun
+  - text: An inherent power or authority held by a person or office.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A distinctive quality or attribute that gives a person advantage or choice.
+    pos: noun
+  - text: A distinctive quality or attribute that sets someone or something apart.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2376,22 +2373,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To emit liquid or gas forcibly in a stream.
+    pos: verb
+  - text: To send out liquid forcibly in a stream or jet.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To speak or express oneself in a lengthy or tedious manner.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A natural opening in the earth from which water or steam is ejected.
+    pos: verb
+  - text: A natural opening in the earth through which water or steam is ejected.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
+  - text: A projecting part of a whale's head through which water is expelled.
+    source: openai
+    sense: 5
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2416,12 +2418,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To become distasteful or unpleasant due to overindulgence.
+    pos: verb
+  - text: To become distasteful or unpleasant due to overabundance or repetition.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2439,17 +2441,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Marked by abnormal thinness caused by lack of nutrition or disease.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Having an unhealthy, wasted appearance from prolonged starvation or disease.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2477,92 +2474,52 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To interrupt an activity or event temporarily.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To fail to observe a rule or law.
+    pos: verb
+  - text: To fail to observe or obey a rule or law.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To cause a pause in continuity or progress.
+    pos: verb
+  - text: To cause a wave or current to collapse or crash.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To emerge or appear suddenly, as light or dawn.
+    pos: verb
+  - text: To make a sudden change in a pattern or trend.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To make a hole or opening in a surface.
+    pos: verb
+  - text: To reveal or disclose information previously hidden.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: To reveal or disclose information previously hidden.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
-  - text: To overcome or defeat an opponent or obstacle.
-    source: openai
-    sense: 8
-    primary: false
-    pos: null
-  - text: To change or alter the usual pattern or routine.
-    source: openai
-    sense: 9
-    primary: false
-    pos: null
-  - text: To fracture a bone or other hard material.
-    source: openai
-    sense: 10
-    primary: false
-    pos: null
-  - text: To interrupt a connection or communication line.
-    source: openai
-    sense: 11
-    primary: false
-    pos: null
-  - text: To violate a promise or agreement.
-    source: openai
-    sense: 12
-    primary: false
-    pos: null
-  - text: To cause a sudden emotional collapse or distress.
-    source: openai
-    sense: 13
-    primary: false
-    pos: null
-  - text: To divide a group or organization by causing disagreement.
-    source: openai
-    sense: 14
-    primary: false
-    pos: null
-  - text: To stop functioning properly or cease operation.
-    source: openai
-    sense: 15
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
 - word: gabardine
   pos: noun
   canonical: &id069
-    text: a firm hard-finish durable fabric (as of wool or rayon) twilled with diagonal
+    text: gaberdine
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: noun
+  entries:
+  - *id069
+  - text: a firm hard-finish durable fabric (as of wool or rayon) twilled with diagonal
       ribs on the right side
     source: merriam-webster
     sense: 2
     primary: false
     pos: noun
-  entries:
-  - *id069
-  - text: a garment of [THING]
+  - text: a garment of a durable, tightly woven fabric, typically made of wool or cotton
     source: merriam-webster
     sense: 3
     primary: false
@@ -2571,12 +2528,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A smooth, twilled cloth used for making suits, overcoats, and raincoats.
+    pos: noun
+  - text: A type of smooth, twilled cloth used for making suits and outerwear.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
+  - text: A raincoat made from a tightly woven, water-resistant fabric.
+    source: openai
+    sense: 3
+    primary: false
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2594,12 +2556,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A timely benefit or assistance appearing just when needed most.
+    pos: noun
+  - text: A timely and fortunate occurrence that solves a difficult problem.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2625,56 +2587,37 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A device used for lifting heavy objects, especially vehicles.
+  - text: A device for lifting heavy objects, especially vehicles, by applying force.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A playing card bearing a figure of a soldier or servant.
+    pos: noun
+  - text: A playing card bearing a figure of a soldier or servant, ranking below a
+      queen.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A connector used for audio or electrical signals.
+    pos: noun
+  - text: A connector used to join electrical or audio cables.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A man or boy, often used informally.
+    pos: noun
+  - text: A male donkey.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: A flagpole or small flag on a ship.
+    pos: noun
+  - text: A man or boy, especially in informal contexts.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: A tool for gripping or holding objects firmly.
+    pos: noun
+  - text: A device for raising or supporting a ship out of water for repairs.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: A mechanical device for raising or lowering a car.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
-  - text: A term for a sailor or seaman.
-    source: openai
-    sense: 8
-    primary: false
-    pos: null
-  - text: A small metal piece used in construction or machinery.
-    source: openai
-    sense: 9
-    primary: false
-    pos: null
-  - text: An electrical switch or socket for connecting devices.
-    source: openai
-    sense: 10
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2698,31 +2641,31 @@
     sense: 3
     primary: false
     pos: noun
-  - text: Soft, moist, and sticky earth or mud.
+  - text: Soft, moist earth or mud, especially when thick or sticky.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: Decayed organic matter used to fertilize soil.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A messy or dirty substance, especially wet dirt.
+    pos: noun
+  - text: A messy or dirty substance, often unpleasant or slimy.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   - text: To soil or make dirty with mud or filth.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To interfere or meddle in a way that causes trouble.
+    pos: noun
+  - text: To work or labor in a slow, inefficient, or careless manner.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2736,16 +2679,26 @@
     pos: adjective
   entries:
   - *id073
+  - text: incompatible, inconsistent
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: adjective
+  - text: hostile
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: adjective
   - text: Offensive to the mind or senses; causing strong dislike or disgust.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Inconsistent or incompatible with; in conflict or opposition to.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2763,17 +2716,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Likely to take place in the near future.
+    pos: adjective
+  - text: Likely to happen imminently, especially something threatening or unpleasant.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Hanging threateningly over someone or something.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2802,12 +2750,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To display or emit a strong and noticeable quality or feeling openly.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2821,36 +2769,46 @@
     pos: noun
   entries:
   - *id076
+  - text: adhesive [THING]
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
   - text: 'magnetic [THING]; also : cassette'
     source: merriam-webster
     sense: 3
     primary: false
     pos: noun
-  - text: A narrow strip of material used for binding, fastening, or sealing.
+  - text: A narrow strip of material used for binding, fastening, or sealing objects.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A magnetic strip used for recording or storing audio or video signals.
+    pos: noun
+  - text: A magnetic strip used for recording and playing back audio or video signals.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A length of adhesive material used for sticking objects together.
+    pos: noun
+  - text: A length of plastic or paper coated with adhesive for sticking items together.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To fasten or secure with a narrow strip of adhesive material.
+    pos: noun
+  - text: A device for recording sound or images on magnetic tape.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To record sound or images onto a magnetic strip.
+    pos: noun
+  - text: To fasten or secure with a narrow adhesive strip.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
+  - text: To record audio or video onto magnetic material.
+    source: openai
+    sense: 6
+    primary: false
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2873,12 +2831,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To make submissive or subservient through force or authority.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
+  - text: To conquer and gain control over a people or territory.
+    source: openai
+    sense: 3
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -2899,26 +2862,21 @@
     sense: 2
     primary: false
     pos: noun
-  - text: A hairstyle consisting of two sections of hair tied or braided on each side.
+  - text: A hairstyle consisting of hair gathered and tied in a braid or bunch.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A single braid or lock of hair hanging down from the head.
+    pos: noun
+  - text: A narrow rope or wire twisted together, often used in electrical wiring.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A short wire or cable with a connector at one end for electronic devices.
+    pos: noun
+  - text: A young pig's tail, typically curly in shape.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A twisted or coiled strand of material resembling a braid.
-    source: openai
-    sense: 4
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -2936,17 +2894,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Clever at achieving goals through trickery or cunning methods.
+    pos: adjective
+  - text: Full of clever tricks or stratagems to achieve goals.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Characterized by craftiness and subtle manipulation to deceive others.
+    pos: adjective
+  - text: Characterized by craftiness and cunning in behavior or thought.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2965,17 +2923,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Marked by strong resentment or harshness in tone or manner.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Displaying anger or harshness, especially in a dispute or argument.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -2999,37 +2952,31 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To work steadily or diligently at a task or trade.
+  - text: To work steadily at a task or trade.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To travel regularly over a route, especially for transportation or trade.
+    pos: verb
+  - text: To travel regularly over a route or between places.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A layer or thickness of material, such as wood or fabric, combined with
-      others.
+    pos: verb
+  - text: A layer or thickness of material, especially in fabric or wood.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To offer or wield something persistently, such as a tool or weapon.
+    pos: verb
+  - text: To offer or wield something persistently.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To bend or fold repeatedly, creating layers or thickness.
+    pos: verb
+  - text: To bend or fold repeatedly.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To engage someone with continuous or repeated efforts or requests.
-    source: openai
-    sense: 6
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -3047,17 +2994,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Completely contrary to nature, reason, or accepted order.
+    pos: adjective
+  - text: So contrary to nature, reason, or experience as to be laughable.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: So foolish or unreasonable as to be laughable or unbelievable.
+    pos: adjective
+  - text: Completely senseless or foolish in a way that provokes disbelief.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3085,12 +3032,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: The act of sprinkling water, especially in religious ceremonies.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3104,64 +3051,54 @@
     pos: adverb
   entries:
   - *id084
-  - text: For all future time; for eternity.
+  - text: For all future time; always.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Continuing without end or interruption.
+    pos: adverb
+  - text: Continuing without end or interruption into the future.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: In a manner that lasts indefinitely.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adverb
   status: imported
   reviewed: false
   distractors: []
 - word: swash
   pos: verb
   canonical: &id085
-    text: to make violent noisy movements
+    text: bluster, swagger
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: verb
+  entries:
+  - *id085
+  - text: to make violent noisy movements
     source: merriam-webster
     sense: 2
     primary: false
     pos: verb
-  entries:
-  - *id085
   - text: to move with a splashing sound
     source: merriam-webster
     sense: 3
     primary: false
     pos: verb
-  - text: To move or flow with a splashing sound or motion.
+  - text: To move or splash noisily, especially water against a surface.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To strike or splash against a surface, especially water against a shore.
+    pos: verb
+  - text: A decorative flourish added to letters in handwriting or typography.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To behave or act in a flamboyant or boastful manner.
+    pos: verb
+  - text: To behave or act in a boastful or swaggering manner.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A splash or sound made by liquid striking a surface.
-    source: openai
-    sense: 4
-    primary: false
-    pos: null
-  - text: A decorative flourish or stroke in handwriting or design.
-    source: openai
-    sense: 5
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -3175,16 +3112,16 @@
     pos: adjective
   entries:
   - *id086
-  - text: Situated farthest inward or deepest within a structure or space.
+  - text: Situated farthest within or deepest inside a place or thing.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Most private or secret, relating to the deepest feelings or thoughts.
+    pos: adjective
+  - text: Most private or secret, relating to one's deepest feelings or thoughts.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3208,42 +3145,36 @@
     sense: 3
     primary: false
     pos: noun
-  - text: To clean something by rubbing it hard, often with a brush and water.
+  - text: To clean something by rubbing it hard, typically with a brush and water.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To remove unwanted material or dirt from a surface by vigorous rubbing.
+    pos: noun
+  - text: A person who performs cleaning tasks, especially in a hospital or kitchen.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To cancel or delete something, such as a plan or event.
+    pos: noun
+  - text: To cancel or remove something planned or scheduled.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To rub the skin roughly, often for hygiene or medical purposes.
+    pos: noun
+  - text: To rub the skin vigorously to remove dirt or dead cells.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: A type of vegetation consisting of stunted trees and shrubs in arid regions.
+    pos: noun
+  - text: A type of vegetation consisting of stunted trees and bushes.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To perform a preparatory action before a procedure, especially in medical
-      contexts.
+    pos: noun
+  - text: To reduce or eliminate parts of a text or data.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: To reject or dismiss someone from a team or group.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3257,26 +3188,31 @@
     pos: adjective
   entries:
   - *id088
+  - text: ample, abundant
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: adjective
   - text: Having a full, rounded shape or form.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Having a pleasantly soft and rounded body.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   - text: To drop or fall heavily or abruptly.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To add fullness or roundness by filling out.
+    pos: adjective
+  - text: To thrust or push suddenly or forcefully.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3296,11 +3232,16 @@
     sense: 2
     primary: false
     pos: verb
-  - text: To carry out or commit an act, typically something harmful or illegal.
+  - text: To carry out or commit an act, typically one that is harmful or illegal.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
+  - text: To perform or execute a deed, especially a wrongful or criminal act.
+    source: openai
+    sense: 2
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -3327,61 +3268,55 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A narrow, tapering flag often used to indicate a sports championship or
-      victory.
+  - text: A long, narrow flag typically triangular or tapering, used as a symbol or
+      signal.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A triangular or swallow-tailed flag flown on a ship to show its nationality.
+    pos: noun
+  - text: An award flag given to a sports team winning a league or championship.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A long, narrow flag displayed by sports teams to signify league or tournament
-      titles.
+    pos: noun
+  - text: A type of sail that is narrow and triangular, set forward of the mast.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A banner used in sailing to identify a yacht club or racing event.
-    source: openai
-    sense: 4
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
 - word: sledge
-  pos: null
+  pos: noun
   canonical: &id091
-    text: A vehicle of various forms, mounted on runners and often drawn by draft animals, used for traveling or for conveying loads over snow, ice, rough ground, etc.
-    source: random_house
+    text: sledgehammer
+    source: merriam-webster
     sense: 1
-    primary: false
-    pos: null
+    primary: true
+    pos: noun
   entries:
   - *id091
   - text: A vehicle typically on runners, used for traveling over snow or ice.
     source: openai
+    sense: 1
+    primary: false
+    pos: noun
+  - text: A heavy hammer with a large flat metal head, used for breaking objects.
+    source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A heavy hammer with a large flat metal head, used for breaking objects.
+    pos: noun
+  - text: To travel or move over snow or ice using a vehicle on runners.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To travel or move over snow or ice using a vehicle on runners.
+    pos: noun
+  - text: To strike forcefully with a heavy hammer or similar tool.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To strike forcefully with a heavy hammer or similar tool.
-    source: openai
-    sense: 5
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3400,17 +3335,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An activity done for fun or amusement, often spontaneous or playful.
+    pos: noun
+  - text: An activity done for fun or amusement, often spontaneous or mischievous.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To engage in carefree or mischievous behavior.
+    pos: noun
+  - text: To engage in playful or carefree behavior.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3424,21 +3359,22 @@
     pos: noun
   entries:
   - *id093
-  - text: A batter cooked between two patterned plates to form a crisp cake.
+  - text: A batter cooked between two patterned plates, creating a crisp, grid-like
+      surface.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: To speak or write evasively or indecisively, avoiding clear commitment.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A light, crisp cake with a characteristic grid pattern.
+    pos: noun
+  - text: To move or proceed in an unsteady or fluctuating manner.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3452,6 +3388,11 @@
     pos: noun
   entries:
   - *id094
+  - text: great suffering
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
   - text: the state of being afflicted by something that causes suffering
     source: merriam-webster
     sense: 3
@@ -3461,17 +3402,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A cause of persistent physical or mental suffering.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   - text: A state of great trouble or adversity.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3501,27 +3442,22 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An official messenger bringing news, especially in historical contexts.
+    pos: noun
+  - text: An official messenger bringing news, especially in medieval times.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A sign or indication that something is about to happen.
+    pos: noun
+  - text: A sign or indication of something about to happen.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To announce or signal the arrival of something.
+    pos: noun
+  - text: To announce or signal the coming of something.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To act as a messenger or bringer of news.
-    source: openai
-    sense: 5
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3546,21 +3482,22 @@
     sense: 3
     primary: false
     pos: adjective
-  - text: Belonging to an earlier period, especially before the 20th century.
+  - text: Belonging to an earlier period, typically valued for age and historical
+      significance.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An object made in a previous era, valued for age and historical significance.
+    pos: adjective
+  - text: An object made in a previous era, often collectible or decorative.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   - text: Having qualities or characteristics of something from a past time.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3589,27 +3526,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To choke or retch as if something is stuck in the throat.
+    pos: verb
+  - text: A joke or humorous story intended to provoke laughter.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To suppress or restrain expression or communication.
+    pos: verb
+  - text: To choke or retch as if about to vomit.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A joke or humorous story intended to provoke laughter.
+    pos: verb
+  - text: To restrain from speaking or expressing opinions.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To fill or block a hole or opening tightly.
+    pos: verb
+  - text: An act of censoring or suppressing information or expression.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -3628,12 +3565,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A structural element dividing adjacent window units in a building facade.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
+  - text: A slender upright member supporting the glass in a window frame.
+    source: openai
+    sense: 3
+    primary: false
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3647,16 +3589,21 @@
     pos: adjective
   entries:
   - *id099
+  - text: empty, insubstantial
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: adjective
   - text: Lacking sense, significance, or ideas; silly or stupid.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Marked by a lack of substance or meaning; empty.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3684,22 +3631,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To display liveliness or brilliance in appearance or expression.
+    pos: verb
+  - text: To display liveliness or brilliance in appearance or behavior.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To produce bright flashes as if reflecting light.
+    pos: verb
+  - text: To shine with a bright, shimmering, reflected light.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   - text: To show vivacity or spirited enthusiasm.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
+  - text: To cause to emit brief flashes of light.
+    source: openai
+    sense: 5
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -3714,16 +3666,16 @@
     pos: noun
   entries:
   - *id101
-  - text: A small pit or scar on the skin caused by a healed pimple or sore.
+  - text: A small pit or scar on the skin caused by acne or smallpox.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A crater-like depression on a surface, often caused by impact or erosion.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3737,16 +3689,17 @@
     pos: adjective
   entries:
   - *id102
-  - text: Hanging or looming over something, especially in a threatening way.
+  - text: Hanging or looming over something, especially in a threatening or menacing
+      way.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: About to happen or occur imminently.
+    pos: adjective
+  - text: About to happen or occur imminently, often with a sense of urgency or danger.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3765,16 +3718,16 @@
     sense: 2
     primary: false
     pos: adjective
-  - text: Essentially different in kind; not allowing comparison.
+  - text: Distinct in kind; essentially different or dissimilar.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Distinct in quality or character; fundamentally unlike.
+    pos: adjective
+  - text: Composed of fundamentally different elements or qualities.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3798,31 +3751,26 @@
     sense: 3
     primary: false
     pos: adjective
-  - text: Of imposing height or elevated in position.
+  - text: Of imposing height, especially standing out above others.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Characterized by noble or elevated thoughts, ideals, or feelings.
+    pos: adjective
+  - text: Characterized by elevated thoughts or ideals, often noble or grand.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Exhibiting a proud or self-important manner.
+    pos: adjective
+  - text: Displaying a proud or self-important manner.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Extending high in the air; towering.
+    pos: adjective
+  - text: Situated at a great height or elevated position.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: Difficult to attain or achieve due to high standards or ambition.
-    source: openai
-    sense: 5
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -3845,12 +3793,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An offensive or contemptible person.
+    pos: noun
+  - text: An unpleasant or contemptible person.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -3873,44 +3821,48 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To lag behind others in movement or progress.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To grow or spread in an untidy or irregular manner.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
 - word: razzmatazz
-  pos: null
+  pos: noun
   canonical: &id107
-    text: A lively spirit; excitement
-    source: collins
+    text: razzle-dazzle
+    source: merriam-webster
     sense: 1
-    primary: false
+    primary: true
     pos: noun
   entries:
   - *id107
-  - text: Noisy, showy, and exciting activity or display designed to attract attention.
-    source: openai
+  - text: double-talk
+    source: merriam-webster
     sense: 2
     primary: false
     pos: noun
-  - text: Extravagant or flashy style intended to impress or dazzle an audience.
-    source: openai
+  - text: vim, zing
+    source: merriam-webster
     sense: 3
     primary: false
     pos: noun
-  - text: A lively and spirited atmosphere characterized by bright colors and loud
-      sounds.
+  - text: Showy or elaborate activity or display intended to attract attention.
     source: openai
-    sense: 4
+    sense: 1
+    primary: false
+    pos: noun
+  - text: Noisy, exciting, and often superficial or flashy style or behavior.
+    source: openai
+    sense: 2
     primary: false
     pos: noun
   status: imported
@@ -3937,26 +3889,26 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To lean or bend from a vertical position.
+  - text: To lean or bend away from a vertical position.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: A surface or plane that slopes upward or downward.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To have a tendency or preference toward a particular action or belief.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To cause to lean or slope in a specified direction.
+    pos: verb
+  - text: To cause to lean, slope, or slant in a specified direction.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -3970,6 +3922,11 @@
     pos: adjective
   entries:
   - *id109
+  - text: deficient
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: adjective
   - text: totally lacking in something specified
     source: merriam-webster
     sense: 3
@@ -3979,25 +3936,30 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Extremely poor or impoverished, especially in a social context.
+    pos: adjective
+  - text: Extremely poor or impoverished, unable to meet essential needs.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
 - word: unsavory
   pos: adjective
   canonical: &id110
-    text: unpleasant to taste or smell
+    text: insipid, tasteless
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: adjective
+  entries:
+  - *id110
+  - text: unpleasant to taste or smell
     source: merriam-webster
     sense: 2
     primary: false
     pos: adjective
-  entries:
-  - *id110
   - text: 'disagreeable, distasteful; especially : morally offensive'
     source: merriam-webster
     sense: 3
@@ -4007,17 +3969,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Morally offensive or disagreeable in character or behavior.
+    pos: adjective
+  - text: Morally offensive or disagreeable in character.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Unattractive or distasteful in appearance or nature.
+    pos: adjective
+  - text: Unattractive or disagreeable in appearance or nature.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4040,35 +4002,60 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To find fault without good reason.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
+  - text: To make petty or unnecessary criticisms.
+    source: openai
+    sense: 3
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
 - word: nub
-  pos: null
+  pos: noun
   canonical: &id112
-    text: A small lump or protuberance on a surface.
+    text: knob, lump
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: noun
+  entries:
+  - *id112
+  - text: nubbin
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
+  - text: gist, point
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: noun
+  - text: A small lump or protuberance on a surface.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  entries:
-  - *id112
+    pos: noun
   - text: The central or most important point of a matter.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   - text: A small piece or remnant left after removal or wear.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
+  - text: A short, thick piece or stub of something.
+    source: openai
+    sense: 4
+    primary: false
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4092,21 +4079,21 @@
     sense: 3
     primary: false
     pos: adjective
-  - text: Free from disturbance or agitation; peaceful and calm in nature or atmosphere.
+  - text: Free from disturbance or agitation; calm and peaceful in nature or atmosphere.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Characterized by quietness and serenity, often evoking a sense of relaxation.
+    pos: adjective
+  - text: Characterized by quietness and serenity, often inducing a sense of relaxation.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Marked by an absence of noise, excitement, or turmoil; undisturbed.
+    pos: adjective
+  - text: Marked by an absence of noise, excitement, or turmoil; undisturbed and still.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4135,22 +4122,22 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A condition of danger or difficulty requiring urgent help.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To cause suffering, pain, or sorrow to someone.
+    pos: noun
+  - text: To cause anxiety, sorrow, or pain to someone.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To signal for help in an emergency situation.
+    pos: noun
+  - text: To subject a ship or cargo to danger or damage.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4168,12 +4155,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To exist or be present throughout an area or a group.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -4197,17 +4184,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Showing great attention to small or trivial details.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Difficult to please due to very specific preferences or standards.
+    pos: adjective
+  - text: Difficult to please due to careful or exacting standards.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4230,22 +4217,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Characterized by elaborate and detailed patterns or designs.
+    pos: adjective
+  - text: Difficult to understand or analyze due to complexity.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Difficult to understand or analyze due to complexity.
+    pos: adjective
+  - text: Characterized by elaborate patterns or complicated design.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Involving complicated and interrelated parts or aspects.
-    source: openai
-    sense: 4
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4273,12 +4255,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To soil or tarnish with dirt or disgrace.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -4293,21 +4275,22 @@
     pos: noun
   entries:
   - *id119
-  - text: Vehicles that run on tracks laid in city streets for public transportation.
+  - text: Vehicles that run on tracks along urban streets for public transportation.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Electric-powered rail vehicles operating within urban areas on fixed routes.
+    pos: noun
+  - text: Electric-powered rail vehicles operating within city streets for passenger
+      transit.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Public transit vehicles designed to carry passengers along city streets.
+    pos: noun
+  - text: Public transit vehicles designed to travel on rails embedded in city roadways.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4327,16 +4310,17 @@
     sense: 2
     primary: false
     pos: noun
-  - text: A man, often noble, granted land by a Scottish king or lord.
+  - text: A man granted land by the king or a noble in medieval Scotland.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A feudal lord or retainer in medieval Scotland or Anglo-Saxon England.
+    pos: noun
+  - text: A member of the aristocracy in Anglo-Saxon England holding land from the
+      king.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4361,33 +4345,54 @@
     sense: 3
     primary: false
     pos: noun
-  - text: An upper story or attic in a building, often used for storage or living
-      space.
+  - text: An upper room or floor in a building, often under the roof.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A room or space directly under the roof of a house or other building.
+    pos: noun
+  - text: A space directly under the roof used for storage or living.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: An elevated area or platform within a barn or warehouse for storing hay
-      or goods.
+    pos: noun
+  - text: To raise or lift something to a higher position or level.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To raise or lift something to a higher position or level.
+    pos: noun
+  - text: To hit a ball high into the air, especially in sports.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To hit a ball high into the air, especially in sports like golf or baseball.
+    pos: noun
+  status: imported
+  reviewed: false
+  distractors: []
+- word: intrinsical
+  pos: adjective
+  canonical: &id122
+    text: intrinsic
+    source: merriam-webster
+    sense: 1
+    primary: true
+    pos: adjective
+  entries:
+  - *id122
+  - text: Belonging naturally or essentially to the nature of something.
     source: openai
-    sense: 5
+    sense: 1
     primary: false
-    pos: null
+    pos: adjective
+  - text: Existing within as an inherent or fundamental quality.
+    source: openai
+    sense: 2
+    primary: false
+    pos: adjective
+  - text: Relating to the essential character or constitution of a thing.
+    source: openai
+    sense: 3
+    primary: false
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4406,16 +4411,21 @@
     sense: 2
     primary: false
     pos: verb
-  - text: To clear from blame or wrongdoing.
+  - text: To clear from accusation or blame.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To relieve from a duty, obligation, or responsibility.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
+  - text: To prove someone is not guilty of wrongdoing.
+    source: openai
+    sense: 3
+    primary: false
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -4433,13 +4443,13 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective or adverb
   - text: Serving as an intensifier to convey strong emotion or emphasis in informal
       speech.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective or adverb
   status: imported
   reviewed: false
   distractors: []
@@ -4458,21 +4468,21 @@
     sense: 2
     primary: false
     pos: adjective
-  - text: Delayed beyond the expected or proper time.
+  - text: Delayed beyond the expected or usual time.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Characterized by slowness or lateness in action or arrival.
+    pos: adjective
+  - text: Moving or acting slowly; sluggish.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Occurring or arriving after the scheduled or usual time.
+    pos: adjective
+  - text: Arriving or happening after the scheduled or usual time.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4490,12 +4500,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Pertaining to the eyebrow or the area immediately above it.
+    pos: adjective
+  - text: Pertaining to the ridge or arch of bone above the eye socket.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4509,21 +4519,16 @@
     pos: adjective
   entries:
   - *id127
-  - text: Performed rapidly with little attention to detail.
+  - text: Hastily done or made, with little attention to detail.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Done hastily and superficially, lacking thoroughness.
+    pos: adjective
+  - text: Performed rapidly and superficially, often resulting in incomplete understanding.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Brief and not thorough in examination or consideration.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4541,27 +4546,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: To wear away or unravel by rubbing or friction.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To become worn or tattered at the edges through use or strain.
+    pos: noun
+  - text: To become worn or tattered at the edges through constant rubbing.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To cause to become strained or irritated emotionally.
+    pos: noun
+  - text: To cause to become strained or irritated through constant stress or tension.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: noun
   - text: To engage in a noisy fight or dispute.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4589,28 +4594,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A large, sturdy container used for storing clothes or belongings during
-      travel.
+    pos: noun
+  - text: A large, sturdy container used for storing or transporting clothes and belongings.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: noun
   - text: The elongated, flexible nose of an elephant, used for grasping and breathing.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: The enclosed compartment at the rear of a car for storing luggage.
+    pos: noun
+  - text: The enclosed rear storage compartment of a car.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: The thick central part of the human body, excluding limbs and head.
+    pos: noun
+  - text: The thick central part of the human body between the neck and the legs.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4631,17 +4635,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A band of tissue transmitting muscular force to a bone or structure.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A connective tissue structure that anchors muscle to skeletal elements.
+    pos: noun
+  - text: A structure connecting muscle to bone, enabling movement when muscles contract.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4665,59 +4669,63 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A rod or branch where birds rest or sit.
+  - text: A branch or rod on which a bird alights or rests.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A type of freshwater fish found in rivers and lakes.
+    pos: noun
+  - text: A raised place or seat for sitting or resting.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A raised place or position for sitting or standing.
+    pos: noun
+  - text: A freshwater fish found in lakes and rivers, often with spiny fins.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To sit or rest on a raised place or narrow support.
+    pos: noun
+  - text: To sit or rest on a raised place, especially a narrow or precarious one.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To settle or alight on a perch or elevated spot.
+    pos: noun
+  - text: To be positioned or located at a height or on an elevated spot.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
 - word: saw
-  pos: null
+  pos: noun
   canonical: &id132
-    text: A tool with a serrated blade used for cutting wood or other materials.
-    source: openai
+    text: A wise saying, maxim, or proverb.
+    source: collins
     sense: 1
-    primary: false
-    pos: null
+    primary: true
   entries:
   - *id132
-  - text: Past tense of perceive with the eyes or visually observe something.
-    source: openai
+  - text: Any of various hand tools for cutting wood, metal, etc, having a blade with teeth along one edge.
+    source: collins
     sense: 2
     primary: false
-    pos: null
-  - text: A proverb or maxim that is widely known and repeated.
-    source: openai
+  - text: Any of various machines or devices for cutting by use of a toothed blade, such as a power-driven circular toothed wheel or toothed band of metal.
+    source: collins
     sense: 3
     primary: false
-    pos: null
-  - text: To have met or encountered someone or something.
+  - text: A tool with a serrated blade used for cutting wood or other materials.
     source: openai
     sense: 4
     primary: false
-    pos: null
+  - text: Past tense of see, indicating the act of perceiving with the eyes.
+    source: openai
+    sense: 5
+    primary: false
+  - text: A proverb or maxim that is widely known and repeated.
+    source: openai
+    sense: 6
+    primary: false
   status: imported
   reviewed: false
   distractors: []
@@ -4731,31 +4739,36 @@
     pos: adjective
   entries:
   - *id133
+  - text: cold, raw
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: adjective
   - text: 'lacking in warmth, life, or kindliness : grim'
     source: merriam-webster
     sense: 3
     primary: false
     pos: adjective
-  - text: Exposed to cold winds and lacking vegetation.
+  - text: Exposed to cold winds and harsh weather conditions.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Offering little or no hope or encouragement.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Unpleasantly cold and damp.
+    pos: adjective
+  - text: Lacking in warmth, life, or kindliness; grim.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Providing no shelter or comfort; desolate.
+    pos: adjective
+  - text: Unpromising or unlikely to produce good results.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4769,6 +4782,11 @@
     pos: verb
   entries:
   - *id134
+  - text: putrefy, rot
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: verb
   - text: 'to cause increasing poisoning, irritation, or bitterness : rankle'
     source: merriam-webster
     sense: 3
@@ -4778,17 +4796,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To worsen or intensify over time, especially through neglect.
+    pos: verb
+  - text: To worsen or intensify through neglect or indifference.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To cause irritation or resentment to grow.
+    pos: verb
+  - text: To produce irritation or resentment over time.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -4817,17 +4835,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Curved outward at the knees, typically describing legs.
+    pos: verb
+  - text: Curved or bent outward at the knees or legs.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To pass or toss back and forth, especially in conversation or debate.
+    pos: verb
+  - text: To pass back and forth, as in discussion or rumor.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -4850,17 +4868,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Causing horror or disgust; shockingly offensive.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Very bad or unpleasant in a moral or social sense.
+    pos: adjective
+  - text: Morally repugnant or wicked in nature.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4878,27 +4896,27 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A long, tapered stick used to strike balls in billiards or pool.
+    pos: noun
+  - text: A long, thin stick used to strike balls in billiards or snooker.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A hint or suggestion that guides behavior or response.
+    pos: noun
+  - text: A hint or indication that guides behavior or response.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: A theatrical signal indicating when an actor should speak or move.
+    pos: noun
+  - text: A theatrical signal given to an actor to begin speaking or moving.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: A feature or event that triggers a particular response or reaction.
+    pos: noun
+  - text: A stimulus that triggers a conditioned response in psychology.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4912,23 +4930,22 @@
     pos: adjective
   entries:
   - *id138
-  - text: Having received guidance or recommendations about a particular course of
-      action.
+  - text: Having received guidance or recommendations about a particular action or
+      decision.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Provided with information or counsel to help make a decision or solve a
-      problem.
+    pos: adjective
+  - text: Provided with information or counsel to help make an informed choice.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Informed or warned about potential risks, consequences, or necessary precautions.
+    pos: adjective
+  - text: Having been warned or cautioned about potential risks or consequences.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -4943,21 +4960,21 @@
     pos: noun
   entries:
   - *id139
-  - text: A wetland area dominated by herbaceous plants instead of woody vegetation.
+  - text: A wetland area dominated by herbaceous plants and grasses.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A low-lying tract of land saturated with water, often flooded seasonally.
+    pos: noun
+  - text: An expanse of low-lying land saturated with water, often near rivers.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: An ecosystem characterized by waterlogged soil and abundant aquatic plants.
+    pos: noun
+  - text: A habitat characterized by soft, waterlogged soil supporting aquatic vegetation.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -4976,17 +4993,13 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: An individual adopting affected manners or styles to gain social acceptance.
+    pos: noun
+  - text: An individual adopting affected manners or style to attract attention or
+      admiration.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Someone who puts on a false appearance to appear fashionable or important.
-    source: openai
-    sense: 3
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5009,12 +5022,12 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: adjective
   - text: Having a blunt, direct, and often harsh way of speaking or behaving.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []
@@ -5034,17 +5047,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: Characteristic of or resembling a cat, especially in agility or slyness.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Having a sharp or biting quality, often in speech or attitude.
+    pos: noun
+  - text: Relating to or characteristic of cats.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5069,17 +5082,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A shrub or small tree producing clusters of edible dark berries.
+    pos: noun
+  - text: A shrub or small tree producing dark berries used in jams and syrups.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Berries commonly used in jams, wines, and traditional medicines.
+    pos: noun
+  - text: A berry commonly used in traditional medicine and culinary preparations.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5102,17 +5115,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: A foolish or stubborn person.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: An individual displaying obstinate or silly behavior.
+    pos: noun
+  - text: An insulting term for someone acting stupidly.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5141,17 +5154,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: noun
   - text: The pattern of limb movements during locomotion in animals.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A particular way of moving forward, especially in horses or dogs.
+    pos: noun
+  - text: A particular way of moving forward, especially on foot or horseback.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5165,21 +5178,26 @@
     pos: noun
   entries:
   - *id146
-  - text: A violent windstorm often accompanied by rain, snow, or hail.
+  - text: tumult, uproar
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: noun
+  - text: A violent storm with strong winds and heavy rain.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A tumultuous or uproarious disturbance or commotion.
+    pos: noun
+  - text: A tumultuous or uproarious situation or event.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: An intense emotional or mental upheaval.
+    pos: noun
+  - text: An intense disturbance or commotion.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5203,31 +5221,31 @@
     sense: 3
     primary: false
     pos: verb
-  - text: To take small bites or eat gently and in small amounts.
+  - text: To take small bites or eat gently and cautiously.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To make small, repeated biting movements.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   - text: To gradually erode or wear away by small bites or nibbling actions.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To handle or examine something cautiously or tentatively.
+    pos: verb
+  - text: To show tentative interest or approach something cautiously.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: verb
   - text: A small amount or portion taken or consumed.
     source: openai
     sense: 5
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -5246,46 +5264,41 @@
     sense: 2
     primary: false
     pos: verb
+  - text: restore, cure
+    source: merriam-webster
+    sense: 3
+    primary: false
+    pos: verb
   - text: To repair or mend something that is broken or damaged.
     source: openai
     sense: 1
     primary: false
-    pos: null
+    pos: verb
   - text: To fasten or secure firmly in place.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To arrange or decide on a time or place for an event.
+    pos: verb
+  - text: To arrange or set something in a particular position or condition.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To prepare or make ready, especially food or drink.
+    pos: verb
+  - text: To determine or establish something definitively.
     source: openai
     sense: 4
     primary: false
-    pos: null
-  - text: To influence or manipulate the outcome dishonestly.
+    pos: verb
+  - text: To prepare or provide food or drink.
     source: openai
     sense: 5
     primary: false
-    pos: null
-  - text: To become stuck or jammed in a particular position.
+    pos: verb
+  - text: To influence or manipulate an outcome dishonestly.
     source: openai
     sense: 6
     primary: false
-    pos: null
-  - text: To provide a solution or remedy for a problem.
-    source: openai
-    sense: 7
-    primary: false
-    pos: null
-  - text: To focus one's attention or gaze steadily on something.
-    source: openai
-    sense: 8
-    primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -5310,22 +5323,21 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A mixture composed of various elements or different types combined together.
+  - text: A mixture composed of various different elements or types.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A musical composition made up of parts of several songs played consecutively.
+    pos: noun
+  - text: A musical composition made up of parts of different songs played consecutively.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: An assortment of different kinds of fruits, vegetables, or other items served
-      together.
+    pos: noun
+  - text: An event or contest featuring a combination of different activities or styles.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5350,26 +5362,21 @@
     sense: 3
     primary: false
     pos: noun
-  - text: A divine or prophetic token indicating future success.
+  - text: A divine or prophetic token, especially from observing birds.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: A favorable sign or indication of good fortune.
+    pos: noun
+  - text: A favorable sign or indication of future success.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Guidance, support, or patronage provided by an organization or individual.
+    pos: noun
+  - text: Sponsorship, support, or guidance provided by an organization or person.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: Authority or sponsorship under which an activity is conducted.
-    source: openai
-    sense: 4
-    primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5387,22 +5394,22 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To accumulate and hide a large quantity of items.
+    pos: noun
+  - text: An accumulated store of valuable objects or money.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: A hidden store of valuable objects or money.
+    pos: noun
+  - text: To gather and hide away a supply of something.
     source: openai
     sense: 3
     primary: false
-    pos: null
-  - text: To gather and keep possessions in a guarded way.
+    pos: noun
+  - text: To accumulate and keep a large amount of something.
     source: openai
     sense: 4
     primary: false
-    pos: null
+    pos: noun
   status: imported
   reviewed: false
   distractors: []
@@ -5416,26 +5423,31 @@
     pos: verb
   entries:
   - *id152
+  - text: wrinkle
+    source: merriam-webster
+    sense: 2
+    primary: false
+    pos: verb
   - text: 'to give forth a thin crackling sound : rustle'
     source: merriam-webster
     sense: 3
     primary: false
     pos: verb
-  - text: To form small folds or wrinkles on a surface.
+  - text: To form small, irregular folds or wrinkles on a surface.
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To produce a slight, sharp sound by crushing or folding.
+    pos: verb
+  - text: To make a slight, sharp sound by crushing or folding something.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: To become wrinkled or creased in texture or appearance.
+    pos: verb
+  - text: A small wrinkle or crease on a surface, especially skin or fabric.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
@@ -5463,25 +5475,25 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: To assume an office, title, or position, especially a throne.
+    pos: verb
+  - text: To assume an office or position, especially a throne or high rank.
     source: openai
     sense: 2
     primary: false
-    pos: null
+    pos: verb
   status: imported
   reviewed: false
   distractors: []
 - word: audacious
   pos: adjective
-  canonical: &id122
+  canonical: &id154
     text: 'intrepidly daring : adventurous'
     source: merriam-webster
     sense: 1
     primary: true
     pos: adjective
   entries:
-  - *id122
+  - *id154
   - text: 'recklessly bold : rash'
     source: merriam-webster
     sense: 2
@@ -5496,17 +5508,17 @@
     source: openai
     sense: 1
     primary: false
-    pos: null
-  - text: Displaying an impudent lack of respect or courtesy.
+    pos: adjective
+  - text: Displaying an impudent lack of respect or boldness.
     source: openai
     sense: 2
     primary: false
-    pos: null
-  - text: Marked by originality and daring in action or thought.
+    pos: adjective
+  - text: Marked by originality and willingness to innovate or challenge conventions.
     source: openai
     sense: 3
     primary: false
-    pos: null
+    pos: adjective
   status: imported
   reviewed: false
   distractors: []

@@ -1,125 +1,117 @@
+from __future__ import annotations
+
 import re
-
-INVALID_PATTERNS = {
-    "[THING]",
-    "thing",
-    "",
-}
+from typing import Optional
 
 
-def is_valid_definition(
-    word: str,
-    definition: str,
+# -----------------------------
+# Definition validation
+# -----------------------------
+
+def is_valid_definition(word: str, text: str) -> bool:
+    """
+    Basic sanity checks for dictionary definitions.
+    """
+
+    if not text:
+        return False
+
+    t = text.strip().lower()
+    w = word.strip().lower()
+
+    # reject empty / trivial
+    if len(t) < 3:
+        return False
+
+    # reject self-referential definitions
+    if t == w:
+        return False
+
+    # reject definitions that are just punctuation or garbage
+    if re.fullmatch(r"[\[\]\(\)\{\}•\-–—]+", t):
+        return False
+
+    # reject obvious placeholder artifacts
+    if t in {"thing", "[thing]"}:
+        return False
+
+    return True
+
+
+# -----------------------------
+# Distractor validation
+# -----------------------------
+
+def is_valid_distractor(word: str, text: str) -> bool:
+    """
+    Ensures distractor is not accidentally valid or related.
+    """
+
+    if not is_valid_definition(word, text):
+        return False
+
+    t = text.lower()
+
+    # avoid direct word reuse
+    if word.lower() in t:
+        return False
+
+    # avoid too short / too vague outputs
+    if len(t.split()) < 3:
+        return False
+
+    return True
+
+
+# -----------------------------
+# POS compatibility (hard filter)
+# -----------------------------
+
+def is_pos_compatible(
+    entry_pos: Optional[str],
+    text: str,
 ) -> bool:
-    if not definition:
-        return False
+    """
+    Lightweight heuristic POS filter (V1).
 
-    t = definition.strip().lower()
+    This is NOT linguistic-grade—just a safety layer.
+    """
 
-    # -----------------------------
-    # 1. reject exact word echo
-    # -----------------------------
-    if t == word:
-        return False
+    if not entry_pos:
+        return True
 
-    # -----------------------------
-    # 2. reject trivial prefix echo
-    # -----------------------------
-    if t.startswith(word + " "):
-        return False
+    t = text.lower()
+    pos = entry_pos.lower()
 
-    # -----------------------------
-    # 3. obvious invalid tokens
-    # -----------------------------
-    if t in INVALID_PATTERNS:
-        return False
-
-    # -----------------------------
-    # 4. too short (heuristic)
-    # -----------------------------
-    if len(t.split()) < 3:
-        return False
-
-    # -----------------------------
-    # 5. only punctuation / noise
-    # -----------------------------
-    if re.fullmatch(r"[\W_]+", t):
-        return False
-
-    # -----------------------------
-    # 6. circular definition (simple check)
-    # -----------------------------
-    if word.lower() in t:
-        # not always bad, but flag weak cases like:
-        # "to debauch someone by debauch"
-        if t.count(word.lower()) > 1:
+    # -------------------------
+    # verb heuristics
+    # -------------------------
+    if pos.startswith("v"):
+        # verbs often start with "to"
+        if t.startswith("to "):
+            return True
+        # reject noun-like patterns
+        if t.startswith(("a ", "an ", "the ")):
             return False
 
-    # -----------------------------
-    # 7. junk prefixes (MW leftovers)
-    # -----------------------------
-    if t.startswith(("see", "cf", "usu", "usually")):
-        return False
+    # -------------------------
+    # noun heuristics
+    # -------------------------
+    if pos.startswith("n"):
+        # allow most noun-like structures
+        return True
+
+    # -------------------------
+    # adjective heuristics
+    # -------------------------
+    if pos.startswith("adj"):
+        # adjectives often start descriptive, but we keep permissive
+        return True
+
+    # -------------------------
+    # adverb heuristics
+    # -------------------------
+    if pos.startswith("adv"):
+        return True
 
     return True
-
-
-def is_valid_distractor(word: str, distractor: str, pos: str | None = None) -> bool:
-    if not distractor:
-        return False
-
-    t = distractor.strip().lower()
-
-    # -----------------------------
-    # 1. reject exact word echo
-    # -----------------------------
-    if t == word:
-        return False
-
-    # -----------------------------
-    # 2. reject trivial prefix echo
-    # -----------------------------
-    if t.startswith(word + " "):
-        return False
-
-    # -----------------------------
-    # 3. obvious invalid tokens
-    # -----------------------------
-    if t in INVALID_PATTERNS:
-        return False
-
-    # -----------------------------
-    # 4. too short (heuristic)
-    # -----------------------------
-    if len(t.split()) < 3:
-        return False
-
-    # -----------------------------
-    # 5. only punctuation / noise
-    # -----------------------------
-    if re.fullmatch(r"[\W_]+", t):
-        return False
-
-    # -----------------------------
-    # 6. circular definition (simple check)
-    # -----------------------------
-    if word.lower() in t:
-        # not always bad, but flag weak cases like:
-        # "to debauch someone by debauch"
-        if t.count(word.lower()) > 1:
-            return False
-
-    # -----------------------------
-    # 7. junk prefixes (MW leftovers)
-    # -----------------------------
-    if t.startswith(("see", "cf", "usu", "usually")):
-        return False
-
-    return True
-
-
-def score_definition(
-    definition: str,
-) -> float:
-    # cheat
-    return 0.0 * len(definition)
