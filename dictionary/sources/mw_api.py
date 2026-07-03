@@ -67,7 +67,6 @@ def fetch_mw_definitions(word: str) -> list[Definition]:
                     "source": "merriam-webster",
                     "sense": i + 1,
                     "primary": i == 0,
-                    "pos": pos,
                 }
             )
 

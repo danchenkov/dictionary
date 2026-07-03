@@ -8,7 +8,6 @@ class Definition(TypedDict):
     source: str
     sense: int
     primary: bool
-    pos: str | None
 
 
 class Distractor(TypedDict):
