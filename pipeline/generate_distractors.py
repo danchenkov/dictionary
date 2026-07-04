@@ -4,25 +4,10 @@ import time
 
 from dictionary.yaml_store import load_yaml, save_yaml
 from dictionary.schema import migrate_dataset
+from dictionary.types import Entry
 
 from dictionary.services.distractor_service import generate_distractors
-
-
-def should_skip(entry: dict) -> bool:
-    """
-    Skip if already has approved distractors.
-    """
-
-    distractors = entry.get("distractors", [])
-
-    if isinstance(distractors, list):
-        return any(
-            d.get("status") == "approved"
-            for d in distractors
-            if isinstance(d, dict)
-        )
-
-    return False
+from dictionary.distractor_store import has_approved_distractors
 
 
 def main() -> None:
@@ -38,8 +23,8 @@ def main() -> None:
 
         print(f"[{i + 1}/{total}] {word}")
 
-        if should_skip(entry):
-            print("  -> already approved, skipping")
+        if has_approved_distractors(entry):
+            print("    already processed")
             continue
 
         distractors = generate_distractors(entry)

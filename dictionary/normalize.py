@@ -12,6 +12,13 @@ def clean_definition(text: str) -> str:
     return re.sub(r'^\s*\d+\s*[\.\)\-–]\s*', '', text).strip()
 
 
+def lowercase_first(text: str) -> str:
+    if not text:
+        return text
+
+    return text[0].lower() + text[1:]
+
+
 def normalize_definition(text: str) -> str:
     text = clean_definition(text)
 
@@ -23,7 +30,24 @@ def normalize_definition(text: str) -> str:
 
     text = text.strip()
 
-    return text
+    if not text:
+        return text
+
+    return text[0].lower() + text[1:]
+
+
+def split_mw_definition(text: str) -> list[str]:
+    parts = re.split(
+        r";\s*(?:also|especially)\s*:\s*",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    return [
+        p.strip(" ;")
+        for p in parts
+        if p.strip()
+    ]
 
 
 def normalize_mw_definition(
@@ -62,9 +86,7 @@ def normalize_mw_definition(
     # -----------------------------
     # 5. Clean up artifacts
     # -----------------------------
-    t = re.sub(r"\s+:\s+", "; ", t)
     t = re.sub(r'\s+', ' ', t).strip()
-
 
     return t
 

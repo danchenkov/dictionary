@@ -5,7 +5,7 @@ import requests
 from typing import Optional
 
 from dictionary.types import Definition
-from dictionary.normalize import normalize_mw_definition
+from dictionary.normalize import normalize_mw_definition, split_mw_definition
 from dictionary.validators import is_valid_definition
 
 
@@ -56,17 +56,19 @@ def fetch_mw_definitions(word: str) -> tuple[list[Definition], str | None]:
             if not cleaned:
                 continue
 
-            if not is_valid_definition(word, cleaned):
-                continue
+            for definition in split_mw_definition(cleaned):
 
-            results.append(
-                {
-                    "text": cleaned,
-                    "source": "merriam-webster",
-                    "sense": i + 1,
-                    "primary": i == 0,
-                }
-            )
+                if not is_valid_definition(word, definition):
+                    continue
+
+                results.append(
+                    {
+                        "text": definition,
+                        "source": "merriam-webster",
+                        "sense": i + 1,
+                        "primary": i == 0,
+                    }
+                )
 
         return results, entry.get("fl")
 

@@ -39,3 +39,12 @@ def has_approved_distractors(
         for d in get_distractors(entry)
         if isinstance(d, dict)
     )
+
+
+def should_skip(
+    entry: Entry
+) -> bool:
+    return any(
+        d["status"] == "approved"
+        for d in entry["distractors"]
+    )
