@@ -6,8 +6,6 @@ from typing import TypedDict
 class Definition(TypedDict):
     text: str
     source: str
-    sense: int
-    primary: bool
 
 
 class Distractor(TypedDict):
@@ -19,7 +17,6 @@ class Distractor(TypedDict):
 
 class Entry(TypedDict):
     word: str
-    canonical: Definition
     entries: list[Definition]
     pos: str | None
     status: str

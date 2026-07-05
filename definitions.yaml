@@ -1,440 +1,251 @@
 - word: woesome
   pos: adjective
-  canonical: &id001
-    text: causing or characterized by deep distress or sorrow
-    source: openai
-    sense: 1
-    primary: false
   entries:
-  - *id001
+  - text: causing or characterized by deep distress or sorrow
+    source: openai
   - text: marked by misery or grief
     source: openai
-    sense: 2
-    primary: false
   - text: involving or expressing great sadness or wretchedness
     source: openai
-    sense: 3
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: catty
   pos: adjective
-  canonical: &id002
-    text: slyly malicious; spiteful
-    source: random house
-    sense: 1
-    primary: true
   entries:
-  - *id002
+  - text: slyly malicious; spiteful
+    source: random house
   - text: catlike; feline
     source: collins
-    sense: 1
-    primary: false
   - text: marked by spiteful or petty criticism often intended to hurt feelings
     source: openai
-    sense: 1
-    primary: false
   - text: characteristic of or resembling a cat in behavior or nature
     source: openai
-    sense: 2
-    primary: false
   - text: relating to or characteristic of cats
     source: openai
-    sense: 3
-    primary: false
   status: imported
   reviewed: true
   distractors: []
 - word: saw
   pos: noun
-  canonical: &id003
-    text: any of various hand tools for cutting wood, metal, etc, having a blade with teeth along one edge
-    source: collins
-    sense: 1
-    primary: false
   entries:
-  - *id003
+  - text: any of various hand tools for cutting wood, metal, etc, having a blade with teeth along one edge
+    source: collins
   - text: a wise saying, maxim, or proverb
     source: collins
-    sense: 2
-    primary: true
   - text: a tool with a toothed blade used for cutting wood or other materials
     source: openai
-    sense: 1
-    primary: false
   - text: past tense of perceive or notice something with the eyes
     source: openai
-    sense: 2
-    primary: false
   - text: a proverb or maxim that is commonly repeated
     source: openai
-    sense: 3
-    primary: false
   - text: to have experienced or witnessed an event or situation
     source: openai
-    sense: 4
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: sconce
   pos: noun
-  canonical: &id004
-    text: a bracket candlestick or group of candlesticks
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id004
+  - text: a bracket candlestick or group of candlesticks
+    source: merriam-webster
   - text: an electric light fixture patterned on a group of candlesticks
     source: merriam-webster
-    sense: 1
-    primary: true
   - text: head, skull
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: a bracket for holding a candle or light, attached to a wall
     source: openai
-    sense: 1
-    primary: false
   - text: a small protective fortification or earthwork on a battlefield
     source: openai
-    sense: 2
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: stiff
   pos: adjective
-  canonical: &id005
-    text: not easily bent; rigid
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id005
+  - text: not easily bent; rigid
+    source: merriam-webster
   - text: lacking in suppleness or flexibility
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: impeded in movement —used of a mechanism
     source: merriam-webster
-    sense: 3
-    primary: false
   - text: not easily bent or changed in shape; rigid
     source: openai
-    sense: 1
-    primary: false
   - text: showing little or no flexibility or movement
     source: openai
-    sense: 2
-    primary: false
   - text: characterized by formal or unnatural behavior
     source: openai
-    sense: 3
-    primary: false
   - text: difficult to move or operate due to rigidity
     source: openai
-    sense: 4
-    primary: false
   - text: severe or harsh in manner or effect
     source: openai
-    sense: 5
-    primary: false
   - text: excessively firm or unyielding in texture or consistency
     source: openai
-    sense: 6
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: riptide
   pos: noun
-  canonical: &id006
-    text: rip current
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id006
+  - text: rip current
+    source: merriam-webster
   - text: a strong, fast-moving tidal current flowing away from the shore
     source: openai
-    sense: 1
-    primary: false
   - text: a powerful water current caused by the tide moving through narrow channels
     source: openai
-    sense: 2
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: caress
   pos: verb
-  canonical: &id007
-    text: 'to treat with tokens of fondness, affection, or kindness : cherish'
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id007
+  - text: 'to treat with tokens of fondness, affection, or kindness : cherish'
+    source: merriam-webster
   - text: to touch or stroke lightly in a loving or endearing manner
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: to touch or stroke gently in a loving or affectionate manner
     source: openai
-    sense: 1
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: razzmatazz
   pos: noun
-  canonical: &id008
-    text: razzle-dazzle
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id008
+  - text: razzle-dazzle
+    source: merriam-webster
   - text: double-talk
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: vim, zing
     source: merriam-webster
-    sense: 3
-    primary: false
   - text: extravagant or showy activity or display intended to attract attention
     source: openai
-    sense: 1
-    primary: false
   - text: noisy, exciting, and impressive activity or behavior often associated with
       entertainment
     source: openai
-    sense: 2
-    primary: false
   - text: a flashy or ostentatious style designed to create a lively atmosphere
     source: openai
-    sense: 3
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: gag
   pos: verb
-  canonical: &id009
-    text: to restrict use of the mouth of by inserting something into it to prevent
-      speech or outcry
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id009
+  - text: to restrict use of the mouth of by inserting something into it to prevent speech or outcry
+    source: merriam-webster
   - text: to prevent from exercising freedom of speech or expression
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: to choke or retch as if about to vomit
     source: openai
-    sense: 1
-    primary: false
   - text: to restrain from speaking or expressing opinions
     source: openai
-    sense: 2
-    primary: false
   status: imported
   reviewed: true
   distractors: []
 - word: antipathy
   pos: noun
-  canonical: &id010
-    text: a strong feeling of dislike
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id010
+  - text: a strong feeling of dislike
+    source: merriam-webster
   - text: 'something disliked : an object of aversion'
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: opposition in feeling
     source: merriam-webster
-    sense: 3
-    primary: false
   - text: a deep-seated feeling of dislike or aversion
     source: openai
-    sense: 1
-    primary: false
   - text: a natural, basic, or habitual repugnance
     source: openai
-    sense: 2
-    primary: false
   - text: an instinctive opposition in feeling or attitude
     source: openai
-    sense: 3
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: godsend
   pos: noun
-  canonical: &id011
-    text: a desirable or needed thing or event that comes unexpectedly
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id011
+  - text: a desirable or needed thing or event that comes unexpectedly
+    source: merriam-webster
   - text: an unexpected event or thing that provides great help or relief
     source: openai
-    sense: 1
-    primary: false
   - text: a timely and fortunate occurrence that solves a difficult problem
     source: openai
-    sense: 2
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: collateral
   pos: noun
-  canonical: &id012
-    text: property (such as securities) pledged by a borrower to protect the interests
-      of the lender
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id012
+  - text: property (such as securities) pledged by a borrower to protect the interests of the lender
+    source: merriam-webster
   - text: a branch of a bodily part (such as a vein)
     source: merriam-webster
-    sense: 2
-    primary: false
   - text: security pledged for the repayment of a loan
     source: collins
-    sense: 1
-    primary: false
   - text: a person, animal, or plant descended from the same ancestor as another but through a different line
     source: collins
-    sense: 2
-    primary: false
   - text: security pledged for the repayment of a loan or fulfillment of an obligation
     source: openai
-    sense: 1
-    primary: false
   - text: damage or loss suffered incidentally during a military attack
     source: openai
-    sense: 2
-    primary: false
   status: imported
   reviewed: true
   distractors: []
 - word: collateral
   pos: adjective
-  canonical: &id013
-    text: serving to support or corroborate
-    source: collins
-    sense: 1
-    primary: true
   entries:
-  - *id013
+  - text: serving to support or corroborate
+    source: collins
   - text: situated or running side by side
     source: collins
-    sense: 2
-    primary: false
   - text: descended from a common ancestor but through different lines
     source: collins
-    sense: 3
-    primary: false
   - text: aside from the main issue
     source: collins
-    sense: 4
-    primary: false
   - text: uniting in tendency
     source: collins
-    sense: 5
-    primary: false
   - text: secondary or subordinate in position, rank, or importance
     source: openai
-    sense: 1
-    primary: false
   - text: accompanying as a related but less important consequence or effect
     source: openai
-    sense: 2
-    primary: false
   - text: situated side by side or running parallel
     source: openai
-    sense: 3
-    primary: false
   status: imported
   reviewed: false
   distractors: []
 - word: gag
   pos: noun
-  canonical: &id014
-    text: a surgical device for keeping the jaws apart, as during a tonsillectomy
-    source: collins
-    sense: 1
-    primary: true
   entries:
-  - *id014
+  - text: a surgical device for keeping the jaws apart, as during a tonsillectomy
+    source: collins
   - text: any restraint on or suppression of information, free speech, etc
     source: collins
-    sense: 2
-    primary: false
   - text: a piece of cloth, rope, etc, stuffed into or tied across the mouth
     source: collins
-    sense: 3
-    primary: false
   - text: a device used to prevent speech or silence a person
     source: openai
-    sense: 1
-    primary: false
   - text: a joke or humorous story intended to provoke laughter
     source: openai
-    sense: 2
-    primary: false
   - text: an act of censoring or restricting speech or expression
     source: openai
-    sense: 3
-    primary: false
   status: imported
   reviewed: true
   distractors: []
 - word: catty
   pos: noun
-  canonical: &id015
-    text: any of various units of weight of China and southeast Asia varying around
-      1⅓ pounds (about 600 grams)
-    source: merriam-webster
-    sense: 1
-    primary: true
   entries:
-  - *id015
+  - text: any of various units of weight of China and southeast Asia varying around 1⅓ pounds (about 600 grams)
+    source: merriam-webster
   - text: a standard Chinese unit equal to 1.1023 pounds (500 grams)
     source: merriam-webster
-    sense: 2
-    primary: false
   status: imported
   reviewed: true
   distractors: []
 - word: caress
   pos: noun
-  canonical: &id016
-    text: a gentle touch or stroke expressing affection or tenderness
-    source: openai
-    sense: 1
-    primary: true
   entries:
-  - *id016
+  - text: a gentle touch or stroke expressing affection or tenderness
+    source: openai
   - text: an act of touching someone or something softly and lovingly
     source: openai
-    sense: 2
-    primary: false
   status: imported
   reviewed: true
   distractors: []

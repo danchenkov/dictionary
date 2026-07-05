@@ -1,10 +1,7 @@
 from __future__ import annotations
 
-from typing import Optional
-
 from dictionary.types import Entry, Distractor
 
-from dictionary.sources.openai_api import fetch_openai_definitions
 from dictionary.validators import is_valid_distractor
 from dictionary.normalize import normalize_definition
 
@@ -20,11 +17,18 @@ def generate_distractors(entry: Entry) -> list[Distractor]:
 
     word = entry["word"]
     pos = entry.get("pos")
-    canonical = entry["canonical"]["text"]
+    if not entry["entries"]:
+        return []
+
+    correct_definition = entry["entries"][0]["text"]
 
     existing_texts = _collect_existing_texts(entry)
 
-    raw = _generate_candidates(word, canonical, pos)
+    raw = _generate_candidates(
+        word,
+        correct_definition,
+        pos,
+    )
 
     filtered = _filter_candidates(
         word=word,
@@ -52,8 +56,8 @@ def generate_distractors(entry: Entry) -> list[Distractor]:
 
 def _generate_candidates(
     word: str,
-    canonical: str,
-    pos: Optional[str],
+    correct_definition: str,
+    pos: str | None,
 ) -> list[str]:
     """
     Ask LLM for plausible but incorrect distractors.
@@ -67,7 +71,7 @@ def _generate_candidates(
     prompt = f"""
 Word: {word}
 Part of speech: {pos}
-Correct definition: {canonical}
+Correct definition: {correct_definition}
 
 Generate {MAX_CANDIDATES} DEFINITELY WRONG dictionary definitions.
 
@@ -175,8 +179,6 @@ def _collect_existing_texts(entry: Entry) -> set[str]:
 
     for d in entry.get("entries", []):
         texts.add(d["text"])
-
-    texts.add(entry["canonical"]["text"])
 
     for d in entry.get("distractors", []):
         texts.add(d["text"])

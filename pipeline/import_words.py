@@ -64,7 +64,6 @@ def main() -> None:
         entry: Entry = {
             "word": word,
             "pos": result.pos,
-            "canonical": result.definitions[0],
             "entries": result.definitions,
             "status": "imported",
             "reviewed": False,

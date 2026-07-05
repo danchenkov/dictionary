@@ -65,8 +65,6 @@ def fetch_mw_definitions(word: str) -> tuple[list[Definition], str | None]:
                     {
                         "text": definition,
                         "source": "merriam-webster",
-                        "sense": i + 1,
-                        "primary": i == 0,
                     }
                 )
 

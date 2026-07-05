@@ -111,8 +111,6 @@ def fetch_openai_definitions(
                 {
                     "text": definition,
                     "source": "openai",
-                    "sense": i + 1,
-                    "primary": False,
                 }
             )
 
